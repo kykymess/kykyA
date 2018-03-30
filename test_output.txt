@@ -1,0 +1,577 @@
+***** Voilà la sortie attendue notez que les tests sont "rapides" *****
+mercredi 14 mars 2018, 22:09:50 (UTC+0100)
+quel est le fichier à traiter ? tp01d
+tentative de lecture de tp01d
+..............................
+===========================================================================
+Total = 45 success = 45 fault = 0 rate: 100.0%
+>>> Total should be: 45
+===========================================================================
+Voulez-vous lancer tous les tests unitaires ? 0
+test_check (test_terrain.TestTerrain)
+o is not Firme nor Consommateur ... ok
+test_clientCostType (test_terrain.TestTerrain) ... ok
+test_clientCostValue (test_terrain.TestTerrain) ... ok
+test_clientPM (test_terrain.TestTerrain)
+non default values should provide correct default value ... ok
+test_clientPreference (test_terrain.TestTerrain)
+non default values should provide correct default value ... ok
+test_clientUtility (test_terrain.TestTerrain)
+non default values should provide correct default value ... ok
+test_colonnes (test_terrain.TestTerrain) ... ok
+test_coordAccess (test_terrain.TestTerrain) ... ok
+test_dmin (test_terrain.TestTerrain) ... ok
+test_fini (test_terrain.TestTerrain) ... ok
+test_firmePM (test_terrain.TestTerrain)
+non default values should provide correct default value ... ok
+test_firmes (test_terrain.TestTerrain) ... ok
+test_lignes (test_terrain.TestTerrain) ... ok
+test_obstacles (test_terrain.TestTerrain) ... ok
+test_posAccess (test_terrain.TestTerrain) ... ok
+test_prixMaximum (test_terrain.TestTerrain)
+non default values should provide correct default value ... ok
+test_prixMinimum (test_terrain.TestTerrain)
+non default values should provide correct default value ... ok
+test_reset (test_terrain.TestTerrain) ... ok
+test_step (test_terrain.TestTerrain) ... ok
+test_voisinage (test_terrain.TestTerrain) ... ok
+test_2D_firmes (test_terrain.TestLand)
+at most 4, at least 2 ... ok
+test_2D_obstacles (test_terrain.TestLand)
+no more than 10% obstacles ... ok
+test_badBool (test_terrain.TestLand)
+__init__ should do the job ... ok
+test_check (test_terrain.TestLand)
+o is not Firme nor Consommateur ... ok
+test_clientCostType (test_terrain.TestLand)
+non default values should provide correct default value ... ok
+test_clientCostValue (test_terrain.TestLand)
+non default values should provide correct default value ... ok
+test_clientPM (test_terrain.TestLand)
+non default values should provide correct default value ... ok
+test_clientPreference (test_terrain.TestLand)
+non default values should provide correct default value ... ok
+test_clientUtility (test_terrain.TestLand)
+non default values should provide correct default value ... ok
+test_colonnes (test_terrain.TestLand) ... ok
+test_coordAccess (test_terrain.TestLand) ... ok
+test_dmin (test_terrain.TestLand) ... ok
+test_fini (test_terrain.TestLand) ... ok
+test_firmePM (test_terrain.TestLand)
+non default values should provide correct default value ... ok
+test_firmes (test_terrain.TestLand) ... ok
+test_ligne_firmes (test_terrain.TestLand)
+2 firmes in row city ... ok
+test_ligne_obstacles (test_terrain.TestLand)
+no obstacle in row city ... ok
+test_lignes (test_terrain.TestLand) ... ok
+test_obstacles (test_terrain.TestLand) ... ok
+test_params (test_terrain.TestLand)
+__init__ should works ... ok
+test_posAccess (test_terrain.TestLand) ... ok
+test_prixMaximum (test_terrain.TestLand)
+non default values should provide correct default value ... ok
+test_prixMinimum (test_terrain.TestLand)
+non default values should provide correct default value ... ok
+test_reset (test_terrain.TestLand) ... ok
+test_ro (test_terrain.TestLand)
+once set, forever set ... ok
+test_step (test_terrain.TestLand) ... ok
+test_typage_colonnes (test_terrain.TestLand)
+bad type: default value expected ... ok
+test_typage_dmin (test_terrain.TestLand)
+bad type: default value expected ... ok
+test_typage_firmes (test_terrain.TestLand)
+bad type: default value expected ... ok
+test_typage_lignes (test_terrain.TestLand)
+bad type: default value expected ... ok
+test_typage_obstacles (test_terrain.TestLand)
+bad type: default value expected ... ok
+test_voisinage (test_terrain.TestLand) ... ok
+test_badValues (test_terrain.TestSetter)
+wrong types or wrong values should be ignored ... ok
+test_setter_cCost (test_terrain.TestSetter)
+various callable, some might fail ... ok
+test_setter_cCostUn (test_terrain.TestSetter)
+setter clientCost est-il opérationnel ? ... ok
+test_setter_cPM (test_terrain.TestSetter)
+être un entier dans 1, lignes*colonnes ... ok
+test_setter_cPreference (test_terrain.TestSetter)
+être un entier dans 0..3 ... ok
+test_setter_cUtility (test_terrain.TestSetter)
+un entier dans pMax+1 ..2pMax+1 ... ok
+test_setter_fPM (test_terrain.TestSetter)
+être un entier dans 1, lignes*colonnes ... ok
+test_setter_fPrixDeux (test_terrain.TestSetter)
+être un entier dans 1, prixMax / prixMin, lig*col ; valeur initiale modifiée ... ok
+test_setter_fPrixUn (test_terrain.TestSetter)
+être un entier dans 1, prixMax / prixMin, lig*col ... ok
+test_check (test_conso.TestConsommateur)
+o is not Terrain nor Firme ... ok
+test_cout (test_conso.TestConsommateur) ... ok
+test_estFixe (test_conso.TestConsommateur) ... ok
+test_getDecision (test_conso.TestConsommateur) ... ok
+test_pm (test_conso.TestConsommateur) ... ok
+test_preference (test_conso.TestConsommateur) ... ok
+test_updateModel (test_conso.TestConsommateur) ... ok
+test_check (test_conso.TestConso)
+o is not Terrain nor Firme ... ok
+test_cout (test_conso.TestConso) ... ok
+test_estFixe (test_conso.TestConso) ... ok
+test_getDecision (test_conso.TestConso)
+decision return ... ok
+test_params (test_conso.TestConso)
+__init__ should work ... ok
+test_pm (test_conso.TestConso) ... ok
+test_preference (test_conso.TestConso) ... ok
+test_ro (test_conso.TestConso)
+no change allowed ... ok
+test_updateModel (test_conso.TestConso) ... ok
+test_check (test_conso.TestRand)
+o is not Terrain nor Firme ... ok
+test_cout (test_conso.TestRand) ... ok
+test_estFixe (test_conso.TestRand) ... ok
+test_getDecision (test_conso.TestRand) ... ok
+test_params (test_conso.TestRand)
+__init__ should work ... ok
+test_pm (test_conso.TestRand) ... ok
+test_preference (test_conso.TestRand) ... ok
+test_ro (test_conso.TestRand)
+no change allowed ... ok
+test_type (test_conso.TestRand) ... ok
+test_updateModel (test_conso.TestRand) ... ok
+test_check (test_conso.TestPlus)
+o is not Terrain nor Firme ... ok
+test_cout (test_conso.TestPlus) ... ok
+test_estFixe (test_conso.TestPlus) ... ok
+test_getDecision (test_conso.TestPlus)
+decision return ... ok
+test_noUpdate (test_conso.TestPlus) ... ok
+test_params (test_conso.TestPlus)
+__init__ should work ... ok
+test_penalty_only (test_conso.TestPlus)
+decision when penalty should reach pm ... ok
+test_pm (test_conso.TestPlus) ... ok
+test_preference (test_conso.TestPlus) ... ok
+test_prrp (test_conso.TestPlus)
+decision evolves ... ok
+test_reset (test_conso.TestPlus)
+if reset changes are expected ... ok
+test_ro (test_conso.TestPlus)
+no change allowed ... ok
+test_type (test_conso.TestPlus) ... ok
+test_updateModel (test_conso.TestPlus) ... ok
+test_check (test_conso.TestAdjust)
+o is not Terrain nor Firme ... ok
+test_cout (test_conso.TestAdjust) ... ok
+test_estFixe (test_conso.TestAdjust) ... ok
+test_getDecision (test_conso.TestAdjust)
+decision return ... ok
+test_noUpdate (test_conso.TestAdjust) ... ok
+test_p3r15 (test_conso.TestAdjust)
+3 ups 2 downs ... ok
+test_params (test_conso.TestAdjust)
+__init__ should work ... ok
+test_penalty_only (test_conso.TestAdjust)
+decision when penalty should reach pm ... ok
+test_pm (test_conso.TestAdjust) ... ok
+test_pr4pr4p (test_conso.TestAdjust)
+not enough to get down ... ok
+test_preference (test_conso.TestAdjust) ... ok
+test_prmany (test_conso.TestAdjust)
+adjust decision but dont go too low ... ok
+test_prrp (test_conso.TestAdjust)
+decision evolves ... ok
+test_prrrrr (test_conso.TestAdjust)
+adjust the decision ... ok
+test_reset (test_conso.TestAdjust)
+if reset changes are expected ... ok
+test_ro (test_conso.TestAdjust)
+no change allowed ... ok
+test_type (test_conso.TestAdjust) ... ok
+test_updateModel (test_conso.TestAdjust) ... ok
+test_check (test_firme.TestFirme)
+o is not Terrain nor Consommateur ... ok
+test_getDecision (test_firme.TestFirme) ... ok
+test_pm (test_firme.TestFirme) ... ok
+test_prixMaxi (test_firme.TestFirme) ... ok
+test_prixMini (test_firme.TestFirme) ... ok
+test_updateModel (test_firme.TestFirme) ... ok
+test_check (test_firme.TestCorp)
+o is not Terrain nor Consommateur ... ok
+test_getDecision (test_firme.TestCorp)
+getDecision -> (dx, dy), price : (N x N) x N ... ok
+test_params (test_firme.TestCorp)
+__init__ should work ... ok
+test_pm (test_firme.TestCorp) ... ok
+test_prixMaxi (test_firme.TestCorp) ... ok
+test_prixMini (test_firme.TestCorp) ... ok
+test_reset (test_firme.TestCorp)
+if reset changes are expected ... ok
+test_ro (test_firme.TestCorp)
+no change allowed ... ok
+test_updateModel (test_firme.TestCorp) ... ok
+test_check (test_firme.TestRand)
+o is not Terrain nor Consommateur ... ok
+test_getDecision (test_firme.TestRand)
+getDecision -> (dx, dy), price : (N x N) x N ... ok
+test_params (test_firme.TestRand)
+__init__ should work ... ok
+test_pm (test_firme.TestRand) ... ok
+test_prixMaxi (test_firme.TestRand) ... ok
+test_prixMini (test_firme.TestRand) ... ok
+test_randdecision (test_firme.TestRand) ... ok
+test_reset (test_firme.TestRand)
+if reset changes are expected ... ok
+test_ro (test_firme.TestRand)
+no change allowed ... ok
+test_type (test_firme.TestRand) ... ok
+test_updateModel (test_firme.TestRand) ... ok
+test_badMood (test_firme.TestLow)
+check that prices stay low but not too low ... ok
+test_check (test_firme.TestLow)
+o is not Terrain nor Consommateur ... ok
+test_evenMidPrice (test_firme.TestLow)
+ça tombe juste ... ok
+test_getDecision (test_firme.TestLow)
+getDecision -> (dx, dy), price : (N x N) x N ... ok
+test_goodMood (test_firme.TestLow)
+check that prices grow up but not too high ... ok
+test_oddMidPrice (test_firme.TestLow)
+ça tombe sur .5 ... ok
+test_params (test_firme.TestLow)
+__init__ should work ... ok
+test_pm (test_firme.TestLow) ... ok
+test_prixMaxi (test_firme.TestLow) ... ok
+test_prixMini (test_firme.TestLow) ... ok
+test_reset (test_firme.TestLow)
+if reset changes are expected ... ok
+test_ro (test_firme.TestLow)
+no change allowed ... ok
+test_type (test_firme.TestLow) ... ok
+test_updateModel (test_firme.TestLow) ... ok
+test_default_coord_Un (test_access.TestVNeumannBound)
+coordAccess 1 x 10  borné Rayon=1 ... ok
+test_default_coord_Zero (test_access.TestVNeumannBound)
+coordAccess 1 x 10  borné Rayon=0 ... ok
+test_default_pos_Un (test_access.TestVNeumannBound)
+posAccess 1 x 10  borné Rayon=1 ... ok
+test_default_pos_Zero (test_access.TestVNeumannBound)
+posAccess 1 x 10  borné Rayon=0 ... ok
+test_generalCase_coord_center (test_access.TestVNeumannBound)
+terrain 11x11 borné ... ok
+test_generalCase_pos_center (test_access.TestVNeumannBound)
+terrain 11x11 borné ... ok
+test_generalCase_pos_corner (test_access.TestVNeumannBound)
+terrain 11x11 borné ... ok
+test_generalCase_pos_mid (test_access.TestVNeumannBound)
+terrain 11x11 borné ... ok
+test_default_coord_Un (test_access.TestMooreBound)
+coordAccess 1 x 10  borné Rayon=1 ... ok
+test_default_coord_Zero (test_access.TestMooreBound)
+coordAccess 1 x 10  borné Rayon=0 ... ok
+test_default_pos_Un (test_access.TestMooreBound)
+posAccess 1 x 10  borné Rayon=1 ... ok
+test_default_pos_Zero (test_access.TestMooreBound)
+posAccess 1 x 10  borné Rayon=0 ... ok
+test_generalCase_coord_center (test_access.TestMooreBound)
+terrain 11x11 borné ... ok
+test_generalCase_pos_center (test_access.TestMooreBound)
+terrain 11x11 borné ... ok
+test_generalCase_pos_corner (test_access.TestMooreBound)
+terrain 11x11 borné ... ok
+test_generalCase_pos_mid (test_access.TestMooreBound)
+terrain 11x11 borné ... ok
+test_default_coord_Un (test_access.TestVNeumannTore)
+coordAccess 1 x 10  non borné Rayon=1 ... ok
+test_default_coord_Zero (test_access.TestVNeumannTore)
+coordAccess 1 x 10  non borné Rayon=0 ... ok
+test_default_pos_Un (test_access.TestVNeumannTore)
+posAccess 1 x 10  non borné Rayon=1 ... ok
+test_default_pos_Zero (test_access.TestVNeumannTore)
+posAccess 1 x 10  non borné Rayon=0 ... ok
+test_generalCoord (test_access.TestVNeumannTore)
+3 coord dans un tore 11x11 von Neumann ... ok
+test_generalPosition (test_access.TestVNeumannTore)
+3 positions dans un tore 11x11 von Neumann ... ok
+test_default_coord_Un (test_access.TestMooreTore)
+coordAccess 1 x 10  non borné Rayon=1 ... ok
+test_default_coord_Zero (test_access.TestMooreTore)
+coordAccess 1 x 10  non borné Rayon=0 ... ok
+test_default_pos_Un (test_access.TestMooreTore)
+posAccess 1 x 10  non borné Rayon=1 ... ok
+test_default_pos_Zero (test_access.TestMooreTore)
+posAccess 1 x 10  non borné Rayon=0 ... ok
+test_generalCoord (test_access.TestMooreTore)
+3 coords dans un tore 11x11 Moore ... ok
+test_generalPosition (test_access.TestMooreTore)
+3 positions dans un tore 11x11 Moore ... ok
+test_default_coord (test_distance.TestPosAndCoord)
+1 x 10 coord2pos ... ok
+test_default_pos (test_distance.TestPosAndCoord)
+1 x 10 pos2coord ... ok
+test_equal (test_distance.TestPosAndCoord)
+2 x 10  coord2pos(pos2coord) = Identity = pos2coord(coord2pos) ... ok
+test_coord (test_distance.TestDistance)
+Evaluation des distances par coordonnées ... ok
+test_equalCoord (test_distance.TestDistance)
+d(x,y) = d(y,x) par positions ... ok
+test_equalDistance (test_distance.TestDistance) ... ok
+test_equalPos (test_distance.TestDistance)
+d(x,y) = d(y,x) par positions ... ok
+test_multicoord (test_distance.TestDistance)
+Evaluation des distances par coordonnées ... ok
+test_multipos (test_distance.TestDistance)
+Evaluation des distances par position ... ok
+test_position (test_distance.TestDistance)
+Evaluation des distances par position ... ok
+test_triangularCoord (test_distance.TestDistance)
+d(x,y) <= d(x,a) + d(a,y) par positions ... ok
+test_triangularPos (test_distance.TestDistance)
+d(x,y) <= d(x,a) + d(a,y) par positions ... ok
+test_Access (test_obstacles.TestObstaclesBound)
+2 voisinages, 4 points, 2 méthodes ... ok
+test_Distance (test_obstacles.TestObstaclesBound)
+distance pour un coin ... ok
+test_independant_coding (test_obstacles.TestObstaclesBound)
+posDistance = coordDistance ... ok
+test_symetrical_dp (test_obstacles.TestObstaclesBound)
+d(x, y) = d(y, x) ... ok
+test_triangular_inequalities (test_obstacles.TestObstaclesBound)
+d(x, y) <= d(x, a) + d(a, y) ... ok
+test_Access (test_obstacles.TestObstaclesTore)
+2 voisinages, 4 points, 2 méthodes ... ok
+test_Distance (test_obstacles.TestObstaclesTore)
+distance pour un coin ... ok
+test_independant_coding (test_obstacles.TestObstaclesTore)
+posDistance = coordDistance ... ok
+test_symetrical_dp (test_obstacles.TestObstaclesTore)
+d(x, y) = d(y, x) ... ok
+test_triangular_inequalities (test_obstacles.TestObstaclesTore)
+d(x, y) <= d(x, a) + d(a, y) ... ok
+test_getConsommateur_default (test_tp01c.TestObstacles)
+no Consommateur at init time ... ok
+test_getFirme_default (test_tp01c.TestObstacles)
+no Firme at init time ... ok
+test_getObstacles (test_tp01c.TestObstacles)
+is setting correct ... ok
+test_getObstacles_default (test_tp01c.TestObstacles)
+empty at init time ... ok
+test_getObstacles_nochange (test_tp01c.TestObstacles)
+modification is forbidden ... ok
+test_getPosFirme_default (test_tp01c.TestObstacles)
+no Firme at init time ... ok
+test_setTerrain_default (test_tp01c.TestObstacles)
+bool is expected ... ok
+test_setTerrain_false (test_tp01c.TestObstacles)
+false if something odd ... ok
+test_setTerrain_true (test_tp01c.TestObstacles)
+true if all is fine ... ok
+test_reset_getFirme (test_tp01c.TestReset)
+reset fills list ... ok
+test_reset_getObstacles (test_tp01c.TestReset)
+reset changes obstacles ... ok
+test_getPosFirme (test_tp01c.TestFirmes)
+assuming reset, getObstacles work ... ok
+test_reset_getFirme (test_tp01c.TestFirmes)
+reset fills list ... ok
+test_reset_getObstacles (test_tp01c.TestFirmes)
+reset changes obstacles ... ok
+test_setFirmes_exces (test_tp01c.TestFirmes)
+getPosFirme required, too much data ... ok
+test_setFirmes_incomplete (test_tp01c.TestFirmes)
+getPosFirme required, not enough data ... ok
+test_setFirmes_iterable (test_tp01c.TestFirmes)
+any iterable should be fine ... ok
+test_setFirmes_return (test_tp01c.TestFirmes)
+no return ... ok
+test_setFirmes_wrongFirmes (test_tp01c.TestFirmes)
+if not a firme should provide solution ... ok
+test_setFirmes_wrongPosition (test_tp01c.TestFirmes)
+if not in good range should provide solution ... ok
+test_getConsommateur (test_tp01c.TestConsommateurs)
+should provide as much None as Obstacles ... ok
+test_getConsommateur_nosense (test_tp01c.TestConsommateurs)
+should provide a None when non sense request ... ok
+test_reset_getFirme (test_tp01c.TestConsommateurs)
+reset fills list ... ok
+test_reset_getObstacles (test_tp01c.TestConsommateurs)
+reset changes obstacles ... ok
+test_evenMidPrice (test_tp01c.TestMid)
+ça tombe juste ... ok
+test_oddMidPrice (test_tp01c.TestMid)
+ça tombe sur .5 ... ok
+test_type (test_tp01c.TestMid) ... ok
+test_evenMidPrice (test_tp01c.TestAcid)
+ça tombe juste ... ok
+test_oddMidPrice (test_tp01c.TestAcid)
+ça tombe sur .5 ... ok
+test_type (test_tp01c.TestAcid) ... ok
+test_resetAgents_default (test_tp01d.TestReset)
+resetAgents doesnt create agent ... ok
+test_resetTerrain_default (test_tp01d.TestReset)
+resetTerrain doesnt create agent ... ok
+test_reset_default (test_tp01d.TestReset)
+reset do create agents ... ok
+test_reset_default_calls (test_tp01d.TestReset)
+reset do call agents' reset ... ok
+test_reset_reset (test_tp01d.TestReset)
+reset do call agent.reset ... ok
+test_reset_resetAgent (test_tp01d.TestReset)
+1st create then call resetAgent specifically ... ok
+test_reset_resetTerrain (test_tp01d.TestReset)
+resetTerrain dont call agent.reset ... ok
+testDefault (test_tp01d.TestPopulation)
+après reset on a une population ... ok
+testEmpty (test_tp01d.TestPopulation)
+Après création on ne sait rien ... ... ok
+testExceedingSetter (test_tp01d.TestPopulation)
+a bit too much ... ok
+testModify (test_tp01d.TestPopulation)
+On cherche à ajouter/enlever ... ok
+testPartialAndIncorrectSetter (test_tp01d.TestPopulation)
+incomplete and incorrect data ... ok
+testPartialSetter (test_tp01d.TestPopulation)
+incomplete data ... ok
+test_resetAgents_default (test_tp01d.TestPopulation)
+resetAgents doesnt create agent ... ok
+test_resetTerrain_default (test_tp01d.TestPopulation)
+resetTerrain doesnt create agent ... ok
+test_reset_default (test_tp01d.TestPopulation)
+reset do create agents ... ok
+test_reset_default_calls (test_tp01d.TestPopulation)
+reset do call agents' reset ... ok
+test_reset_reset (test_tp01d.TestPopulation)
+reset do call agent.reset ... ok
+test_reset_resetAgent (test_tp01d.TestPopulation)
+1st create then call resetAgent specifically ... ok
+test_reset_resetTerrain (test_tp01d.TestPopulation)
+resetTerrain dont call agent.reset ... ok
+testDefault (test_tp01d.TestSimulation)
+après reset on a une population ... ok
+testEmpty (test_tp01d.TestSimulation)
+Après création on ne sait rien ... ... ok
+testExceedingSetter (test_tp01d.TestSimulation)
+a bit too much ... ok
+testModify (test_tp01d.TestSimulation)
+On cherche à ajouter/enlever ... ok
+testPartialAndIncorrectSetter (test_tp01d.TestSimulation)
+incomplete and incorrect data ... ok
+testPartialSetter (test_tp01d.TestSimulation)
+incomplete data ... ok
+test_resetAgents_default (test_tp01d.TestSimulation)
+resetAgents doesnt create agent ... ok
+test_resetTerrain_default (test_tp01d.TestSimulation)
+resetTerrain doesnt create agent ... ok
+test_reset_default (test_tp01d.TestSimulation)
+reset do create agents ... ok
+test_reset_default_calls (test_tp01d.TestSimulation)
+reset do call agents' reset ... ok
+test_reset_reset (test_tp01d.TestSimulation)
+reset do call agent.reset ... ok
+test_reset_resetAgent (test_tp01d.TestSimulation)
+1st create then call resetAgent specifically ... ok
+test_reset_resetTerrain (test_tp01d.TestSimulation)
+resetTerrain dont call agent.reset ... ok
+test_badMarket (test_firme01d.TestStable)
+market goes down although only one corp ... ok
+test_calmMarket (test_firme01d.TestStable)
+market remains the same ... ok
+test_evenMidPrice (test_firme01d.TestStable)
+ça tombe juste ... ok
+test_goodMarket (test_firme01d.TestStable)
+market goes up although only one seller ... ok
+test_oddMidPrice (test_firme01d.TestStable)
+ça tombe sur .5 ... ok
+test_reset (test_firme01d.TestStable)
+if reset changes are expected ... ok
+test_type (test_firme01d.TestStable)
+subclassing required ... ok
+test_badMarket (test_firme01d.TestLeft)
+market goes down although only one corp ... ok
+test_calmMarket (test_firme01d.TestLeft)
+market remains the same ... ok
+test_evenMidPrice (test_firme01d.TestLeft)
+ça tombe juste ... ok
+test_goodMarket (test_firme01d.TestLeft)
+market goes up although only one seller ... ok
+test_oddMidPrice (test_firme01d.TestLeft)
+ça tombe sur .5 ... ok
+test_reset (test_firme01d.TestLeft)
+if reset changes are expected ... ok
+test_type (test_firme01d.TestLeft)
+subclassing required ... ok
+test_badMarket (test_firme01d.TestRight)
+market goes down although only one corp ... ok
+test_calmMarket (test_firme01d.TestRight)
+market remains the same ... ok
+test_evenMidPrice (test_firme01d.TestRight)
+ça tombe juste ... ok
+test_goodMarket (test_firme01d.TestRight)
+market goes up although only one seller ... ok
+test_oddMidPrice (test_firme01d.TestRight)
+ça tombe sur .5 ... ok
+test_reset (test_firme01d.TestRight)
+if reset changes are expected ... ok
+test_type (test_firme01d.TestRight)
+subclassing required ... ok
+test_badMarket (test_firme01d.TestUp)
+market goes down although only one corp ... ok
+test_calmMarket (test_firme01d.TestUp)
+market remains the same ... ok
+test_evenMidPrice (test_firme01d.TestUp)
+ça tombe juste ... ok
+test_goodMarket (test_firme01d.TestUp)
+market goes up although only one seller ... ok
+test_oddMidPrice (test_firme01d.TestUp)
+ça tombe sur .5 ... ok
+test_reset (test_firme01d.TestUp)
+if reset changes are expected ... ok
+test_type (test_firme01d.TestUp)
+subclassing required ... ok
+test_badMarket (test_firme01d.TestDown)
+market goes down although only one corp ... ok
+test_calmMarket (test_firme01d.TestDown)
+market remains the same ... ok
+test_evenMidPrice (test_firme01d.TestDown)
+ça tombe juste ... ok
+test_goodMarket (test_firme01d.TestDown)
+market goes up although only one seller ... ok
+test_oddMidPrice (test_firme01d.TestDown)
+ça tombe sur .5 ... ok
+test_reset (test_firme01d.TestDown)
+if reset changes are expected ... ok
+test_type (test_firme01d.TestDown)
+subclassing required ... ok
+test_check (test_conso01d.TestConso)
+o is not Terrain nor Firme ... ok
+test_badSetting_estFixe (test_conso01d.TestPref)
+whatever the parameter, the value will be False ... ok
+test_check (test_conso01d.TestPref)
+o is not Terrain nor Firme ... ok
+test_estFixe (test_conso01d.TestPref)
+PrefConso learns preference ... ok
+test_getDecision (test_conso01d.TestPref)
+expecting the default behavior ... ok
+test_once_set_forever_set (test_conso01d.TestPref)
+setting to some size and try to set a new length ... ok
+test_preference_init (test_conso01d.TestPref)
+at init preference is a 1 vect of size 4 ... ok
+test_reset (test_conso01d.TestPref)
+reset will reset the preference ... ok
+test_type (test_conso01d.TestPref)
+PrefConso is Consommateur ... ok
+test_update_exaequo (test_conso01d.TestPref)
+only one winner can be accounted ... ok
+test_update_fix_size_toohigh (test_conso01d.TestPref)
+updateModel ignore nonsense ... ok
+test_update_fix_size_toosmall (test_conso01d.TestPref)
+updateModel ignore nonsense ... ok
+test_update_winner (test_conso01d.TestPref)
+only one winner can be accounted ... ok
+
+----------------------------------------------------------------------
+Ran 320 tests in 0.726s
+
+OK
+
