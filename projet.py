@@ -819,7 +819,7 @@ class Firme(object):
         #    if type(lignes) is int :self.__lignes = lignes
 
         self.part_de_marche = None
-        self.prix_actuel = None
+        self.__prix_actuel = None
 
         # pm
         if type(pm) is int:
@@ -852,8 +852,17 @@ class Firme(object):
         return self.__prixMaxi
 
     @property
-    def midPrice(self):
+    def prixMedian(self):
         return (self.prixMini + self.prixMaxi) / 2
+
+    @property
+    def prix_actuel(self):
+        return self.__prix_actuel
+
+    @prix_actuel.setter
+    def prix_actuel(self, prix):
+        if isinstance(prix, (int, float)):
+            self.__prix_actuel = min(max(self.__prix_actuel, self.prixMini), self.prixMaxi)
 
     def getDecision(self, *args, **kwargs):
         # on reçoit un triplet <coord, qté, prix> * nb_firmes
@@ -900,9 +909,8 @@ class LowCorp(RandCorp):
     def getDecision(self, *args, **kwargs):
         # on reçoit un triplet <coord, qté, prix> par firme
         if self.part_de_marche == None:  # quand on a pas d'info, prix médian
-            self.prix_actuel = self.midPrice
-        elif self.part_de_marche > 0.5:
-            # monopole
+            self.prix_actuel = self.prixMedian
+        elif self.part_de_marche > 0.5:  # monopole
             self.prix_actuel += 1
         else:
             self.prix_actuel = self.prixMini
@@ -910,13 +918,16 @@ class LowCorp(RandCorp):
 
 
 class MidCorp(Firme):
-    "Soit h(x1, y1), q1, p1i. . .h(xk, yk), qk, pki les coordonnées, les quantités vendues et les prix"
-    "pratiqués, la firme se placera alors en ( voir formule td03) et pratiquera le prix unitaire moyen ( voir formule td03)"
-    "En cas de problème, la firme ne bouge pas et le prix unitaire est (pmin+pmax)/2"
+    """
+    Soit h(x1, y1), q1, p1i. . .h(xk, yk), qk, pki les coordonnées,
+    les quantités vendues et les prix pratiqués, la firme se placera alors en
+    ( voir formule td03) et pratiquera le prix unitaire moyen ( voir formule td03)
+    En cas de problème, la firme ne bouge pas et le prix unitaire est (pmin + pmax) / 2
+    """
 
     def getDecision(self, *args, **kwargs):
         if not args:
-            return (0, 0), (self.prixMini + self.prixMaxi) / 2
+            return (0, 0), self.prixMedian
         k = len(args)
         x = [coord[0] for (coord, qte, prix) in args]
         y = [coord[1] for (coord, qte, prix) in args]
@@ -929,24 +940,71 @@ class MidCorp(Firme):
         return (mv_x, mv_y), prix
 
 
-class AcidCorp(Firme):
-    "Se tient la plus éloignée possible de la concurrence, tout en augmentant les prix si sa part"
-    "de marché est stable ou en hausse, diminue les prix sinon – les variations sont de 1 point entre deux"
-    "tours. En cas de manque d’information, la firme ne bouge pas et son prix unitaire sera de (pmin+pmax)/2"
-    pass
+class AcidCorp(RandCorp):
+    """
+    Se tient la plus éloignée possible de la concurrence, tout en augmentant
+    les prix si sa part de marché est stable ou en hausse, diminue les prix sinon
+    – les variations sont de 1 point entre deux tours. En cas de manque d’information,
+    la firme ne bouge pas et son prix unitaire sera de (pmin + pmax) / 2
+    """
+    def __init__(self, *args, **kwargs):
+        super().__init__(self, *args, **kwargs)
+        self.prix_actuel = self.prixMedian
+
+    @staticmethod
+    def calculer_part(*args):
+        liste_prix = [prix for (coord, qte, prix) in args]
+        liste_qtes = [qte for (coord, qte, prix) in args]
+        return [qte / sum(liste_qtes) for qte in liste_qtes]
+
+    def who_am_I(self, *args):
+        """
+        Trouver l'indice qui correspond à cette firme dans une liste de
+        triplets <coord, qté, prix>, en utilisant la dernière part de marché
+        et le dernier prix de vente. En cas d'égalité, on renvoie None
+        """
+        candidats = []
+        parts = self.calculer_part(*args)
+        for i in range(len(args)):
+            if parts[i] == self.part_de_marche and prix[i] == self.prix_actuel:
+                candidats.append(i)
+        if len(candidats) == 1:  # j'ai qu'un seul candidat = on a trouvé
+            return candidats[0]
+        # sinon on renvoie rien
+
+    def getDecision(self, *args, **kwargs):
+        # gestion des prix
+        deplacement = (0, 0)
+
+        mon_indice = self.who_am_I(*args)
+
+        if mon_indice is None:  # On a pas trouvé
+            return deplacement, self.prix_actuel
+        else:  # On a trouvé
+            mes_coords = args[mon_indice]
+            ma_part = self.calculer_part(*args)[i]
+            if ma_part >= self.part_de_marche:
+                self.prix_actuel += 1
+            else:
+                self.prix_actuel -= 1
+
+            # on sait pas comment bouger alors on bouge au hasard
+            deplacement = self.random_deplacement(self.pm)
+        return deplacement, self.prix_actuel
 
 
-class StableCorp(Firme):
+class StableCorp(AcidCorp):
     " ne se déplace pas (0,0)"
     deplacement = (0, 0)
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.dernier_prix = (self.prixMini + self.prixMaxi) / 2
-
     def getDecision(self, *args, **kwargs):
-        prix = self.dernier_prix
-        return self.deplacement, self.dernier_prix
+        mon_indice = self.who_am_I(*args)
+        if mon_indice is not None:  # on s'est trouvé
+            ma_part = self.calculer_part(*args)[i]
+            if ma_part < self.part_de_marche:
+                self.prix_actuel -= 1
+            elif k
+        return self.deplacement, self.prixMedian
 
 
 class LeftCorp(StableCorp):
