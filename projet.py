@@ -999,11 +999,7 @@ class StableCorp(AcidCorp):
 
     def getDecision(self, *args, **kwargs):
         mon_indice = self.who_am_I(*args)
-        if mon_indice is not None:  # on s'est trouvé
-            ma_part = self.calculer_part(*args)[i]
-            if ma_part < self.part_de_marche:
-                self.prix_actuel -= 1
-            elif k
+        # a faire ...
         return self.deplacement, self.prixMedian
 
 
