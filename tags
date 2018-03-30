@@ -1,0 +1,1290 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AcidCorp	projet.py	/^class AcidCorp(Firme):$/;"	c
+AdjustConso	projet.py	/^class AdjustConso(PlusConso):$/;"	c
+Agent	tests/test_tp01c.py	/^class Agent:$/;"	c
+Bidon	mmcTools.py	/^    class Bidon(metaclass=abc.ABCMeta): pass$/;"	c
+Bidon	mmcTools.py	/^    class Bidon: pass$/;"	c
+Bidon	tests/mmcTools.py	/^    class Bidon(metaclass=abc.ABCMeta): pass$/;"	c
+Bidon	tests/mmcTools.py	/^    class Bidon: pass$/;"	c
+Bidon	tools/mmcTools.py	/^    class Bidon(metaclass=abc.ABCMeta): pass$/;"	c
+Bidon	tools/mmcTools.py	/^    class Bidon: pass$/;"	c
+Cfg	tests/test_obstacles.py	/^class Cfg:$/;"	c
+Consommateur	projet.py	/^class Consommateur(object):$/;"	c
+Consommateur	tools/simulateur.py	/^from projet import Consommateur$/;"	i
+Consumer	tests/test_tp01c.py	/^class Consumer(Agent):$/;"	c
+Controle	mmcTools.py	/^class Controle(object):$/;"	c
+Controle	tests/mmcTools.py	/^class Controle(object):$/;"	c
+Controle	tools/mmcTools.py	/^class Controle(object):$/;"	c
+Corp	tests/test_tp01c.py	/^class Corp(Agent):$/;"	c
+Customer	tests/test_tp01d.py	/^class Customer:$/;"	c
+Data	load_tests.py	/^class Data(object):$/;"	c
+DownCorp	projet.py	/^class DownCorp(StableCorp):$/;"	c
+EGreedy	rl_mmc/rl/greedy.py	/^class EGreedy(RL):$/;"	c
+EGreedy	rl_mmc/tests/test_rl.py	/^from rl.greedy import EGreedy$/;"	i
+Elman	rna_mmc/rna/ffElman.py	/^class Elman(FeedForward):$/;"	c
+Fake	mmcTools.py	/^    class Fake:$/;"	c
+Fake	tests/mmcTools.py	/^    class Fake:$/;"	c
+Fake	tests/test_tp01d.py	/^        class Fake(getattr(tp, "Consommateur")): pass$/;"	c	function:TestPopulation.setUp
+Fake	tools/mmcTools.py	/^    class Fake:$/;"	c
+Fake2	mmcTools.py	/^    class Fake2:$/;"	c
+Fake2	tests/mmcTools.py	/^    class Fake2:$/;"	c
+Fake2	tools/mmcTools.py	/^    class Fake2:$/;"	c
+Fake3	mmcTools.py	/^    class Fake3(Bidon): pass$/;"	c
+Fake3	tests/mmcTools.py	/^    class Fake3(Bidon): pass$/;"	c
+Fake3	tools/mmcTools.py	/^    class Fake3(Bidon): pass$/;"	c
+Fake4	mmcTools.py	/^    class Fake4(Fake2):$/;"	c
+Fake4	tests/mmcTools.py	/^    class Fake4(Fake2):$/;"	c
+Fake4	tools/mmcTools.py	/^    class Fake4(Fake2):$/;"	c
+FeedForward	rna_mmc/rna/ffElman.py	/^from rna.ffNet import FeedForward$/;"	i
+FeedForward	rna_mmc/rna/ffNet.py	/^class FeedForward:$/;"	c
+Firme	projet.py	/^class Firme(object):$/;"	c
+Firme	tools/simulateur.py	/^from projet import Firme$/;"	i
+Fun	rna_mmc/rna/libFun.py	/^class Fun(metaclass=abc.ABCMeta):$/;"	c
+Historique	BigFile_Terrain.py	/^from tools.mmcContainer import Historique, MultiSet$/;"	i
+Historique	projet.py	/^from tools.mmcContainer import Historique, MultiSet$/;"	i
+Historique	tools/mmcContainer.py	/^class Historique:$/;"	c
+ID	tests/test_tp01c.py	/^    ID = 0$/;"	v	class:Agent
+ID	tools/mmcContainer.py	/^    ID = 0$/;"	v	class:UnNoeud
+LeftCorp	projet.py	/^class LeftCorp(StableCorp):$/;"	c
+Linear	rna_mmc/rna/libFun.py	/^class Linear(Fun):$/;"	c
+Logit	rna_mmc/rna/libFun.py	/^class Logit(Fun):$/;"	c
+LowCorp	projet.py	/^class LowCorp(RandCorp):$/;"	c
+MLP	rna_mmc/rna/ffNet_with_graph.py	/^class MLP(ffNet.FeedForward):$/;"	c
+MidCorp	projet.py	/^class MidCorp(Firme):$/;"	c
+Mouhaha	tests/test_tp01d.py	/^        class Mouhaha(getattr(tp, "RandConso")): pass$/;"	c	function:TestPopulation.setUp
+MultiSet	BigFile_Terrain.py	/^from tools.mmcContainer import Historique, MultiSet$/;"	i
+MultiSet	projet.py	/^from tools.mmcContainer import Historique, MultiSet$/;"	i
+MultiSet	tools/mmcContainer.py	/^class MultiSet:$/;"	c
+NamedArray	rna_mmc/rna/test_digits.py	/^class NamedArray(np.ndarray):$/;"	c
+Number	BigFile_Terrain.py	/^from numbers import Number$/;"	i
+Number	projet.py	/^from numbers import Number$/;"	i
+Number	rl_mmc/rl/base.py	/^from numbers import Number$/;"	i
+Number	rl_mmc/rl/greedy.py	/^from numbers import Number$/;"	i
+Number	rl_mmc/rl/softmax.py	/^from numbers import Number$/;"	i
+Number	rl_mmc/tests/test_rl.py	/^from numbers import Number$/;"	i
+Number	rna_mmc/rna/libFun.py	/^from numbers import Number$/;"	i
+PlusConso	projet.py	/^class PlusConso(Consommateur):$/;"	c
+Queue	tools/mmcContainer.py	/^class Queue(object):$/;"	c
+RBoltzmann	rna_mmc/rna/ffRBoltzmann.py	/^class RBoltzmann:$/;"	c
+RL	rl_mmc/rl/base.py	/^class RL:$/;"	c
+RL	rl_mmc/rl/greedy.py	/^from rl.base import RL$/;"	i
+RL	rl_mmc/rl/softmax.py	/^from rl.base import RL$/;"	i
+RandConso	projet.py	/^class RandConso(Consommateur):$/;"	c
+RandCorp	projet.py	/^class RandCorp(Firme):$/;"	c
+RightCorp	projet.py	/^class RightCorp(StableCorp):$/;"	c
+Seuil	rna_mmc/rna/libFun.py	/^class Seuil(Fun):$/;"	c
+Softmax	rl_mmc/main_tp02.py	/^from rl.softmax import Softmax$/;"	i
+Softmax	rl_mmc/rl/softmax.py	/^class Softmax(RL):$/;"	c
+Softmax	rl_mmc/tests/test_rl.py	/^from rl.softmax import Softmax$/;"	i
+StableCorp	projet.py	/^class StableCorp(Firme):$/;"	c
+Stack	tools/mmcContainer.py	/^class Stack(object):$/;"	c
+Store	tools/simulateur.py	/^class Store:$/;"	c
+Tanh	rna_mmc/rna/libFun.py	/^class Tanh(Fun):$/;"	c
+Terrain	BigFile_Terrain.py	/^class Terrain:$/;"	c
+Terrain	projet.py	/^class Terrain:$/;"	c
+Terrain	rl_mmc/main_tp02.py	/^from terrain.terrain import Terrain$/;"	i
+TestAcid	tests/test_tp01c.py	/^class TestAcid(TestMid):$/;"	c
+TestAdjust	tests/test_conso.py	/^class TestAdjust(TestPlus):$/;"	c
+TestConso	tests/test_conso.py	/^class TestConso(TestConsommateur):$/;"	c
+TestConso	tests/test_conso01d.py	/^class TestConso(unittest.TestCase):$/;"	c
+TestConsommateur	tests/test_conso.py	/^class TestConsommateur(unittest.TestCase):$/;"	c
+TestConsommateurs	tests/test_tp01c.py	/^class TestConsommateurs(TestReset):$/;"	c
+TestCorp	tests/test_firme.py	/^class TestCorp(TestFirme):$/;"	c
+TestDistance	tests/test_distance.py	/^class TestDistance(unittest.TestCase):$/;"	c
+TestDown	tests/test_firme01d.py	/^class TestDown(TestStable):$/;"	c
+TestFirme	tests/test_firme.py	/^class TestFirme(unittest.TestCase):$/;"	c
+TestFirmes	tests/test_tp01c.py	/^class TestFirmes(TestReset):$/;"	c
+TestLand	tests/test_terrain.py	/^class TestLand(TestTerrain):$/;"	c
+TestLeft	tests/test_firme01d.py	/^class TestLeft(TestStable):$/;"	c
+TestLow	tests/test_firme.py	/^class TestLow(TestCorp):$/;"	c
+TestMid	tests/test_tp01c.py	/^class TestMid(unittest.TestCase):$/;"	c
+TestMooreBound	tests/test_access.py	/^class TestMooreBound(unittest.TestCase):$/;"	c
+TestMooreTore	tests/test_access.py	/^class TestMooreTore(unittest.TestCase):$/;"	c
+TestObstacles	tests/test_tp01c.py	/^class TestObstacles(unittest.TestCase):$/;"	c
+TestObstaclesBound	tests/test_obstacles.py	/^class TestObstaclesBound(unittest.TestCase):$/;"	c
+TestObstaclesTore	tests/test_obstacles.py	/^class TestObstaclesTore(TestObstaclesBound):$/;"	c
+TestPlus	tests/test_conso.py	/^class TestPlus(TestConso):$/;"	c
+TestPopulation	tests/test_tp01d.py	/^class TestPopulation(unittest.TestCase):$/;"	c
+TestPosAndCoord	tests/test_distance.py	/^class TestPosAndCoord(unittest.TestCase):$/;"	c
+TestPref	tests/test_conso01d.py	/^class TestPref(TestConso):$/;"	c
+TestRand	tests/test_conso.py	/^class TestRand(TestConso):$/;"	c
+TestRand	tests/test_firme.py	/^class TestRand(TestCorp):$/;"	c
+TestReset	tests/test_tp01c.py	/^class TestReset(unittest.TestCase):$/;"	c
+TestReset	tests/test_tp01d.py	/^class TestReset(unittest.TestCase):$/;"	c
+TestRight	tests/test_firme01d.py	/^class TestRight(TestStable):$/;"	c
+TestSetter	tests/test_terrain.py	/^class TestSetter(unittest.TestCase):$/;"	c
+TestSimulation	tests/test_tp01d.py	/^class TestSimulation(TestPopulation):$/;"	c
+TestStable	tests/test_firme01d.py	/^class TestStable(unittest.TestCase):$/;"	c
+TestTerrain	tests/test_terrain.py	/^class TestTerrain(unittest.TestCase):$/;"	c
+TestUp	tests/test_firme01d.py	/^class TestUp(TestStable):$/;"	c
+TestVNeumannBound	tests/test_access.py	/^class TestVNeumannBound(unittest.TestCase):$/;"	c
+TestVNeumannTore	tests/test_access.py	/^class TestVNeumannTore(unittest.TestCase):$/;"	c
+UnNoeud	tools/mmcContainer.py	/^class UnNoeud(object):$/;"	c
+UpCorp	projet.py	/^class UpCorp(StableCorp):$/;"	c
+XX	mmcTools.py	/^    class XX:$/;"	c
+XX	tests/mmcTools.py	/^    class XX:$/;"	c
+XX	tools/mmcTools.py	/^    class XX:$/;"	c
+_0	rna_mmc/rna/test_digits.py	/^        _0 = net.forward(base['input'][i])$/;"	v	class:confusionMatrix.unknown
+_1	rna_mmc/rna/test_digits.py	/^        _1 = (_0 == _0.max()).astype(int)$/;"	v	class:confusionMatrix.unknown
+_2	rna_mmc/rna/test_digits.py	/^        _2 = np.argmax(_1) if (seuil == 0 or$/;"	v	class:confusionMatrix.unknown
+__all__	tools/ezCLI.py	/^__all__ = ['convert', 'parse', 'inject', 'grid', 'pause', 'userloop', 'timer',$/;"	v
+__array_finalize__	rna_mmc/rna/test_digits.py	/^    def __array_finalize__(self, obj):$/;"	m	class:NamedArray	file:
+__author__	BigFile_Terrain.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	load_tests.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	mmcTools.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	projet.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	rl_mmc/main_tp02.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	rl_mmc/rl/base.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	rl_mmc/rl/greedy.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	rl_mmc/rl/softmax.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	rl_mmc/tests/test_rl.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	rna_mmc/rna/ffElman.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	rna_mmc/rna/ffNet.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	rna_mmc/rna/ffNet_with_graph.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	rna_mmc/rna/ffRBoltzmann.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	rna_mmc/rna/libFun.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	rna_mmc/rna/test_digits.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	rna_mmc/rna_Readme.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tests/mmcTools.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tests/test_access.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tests/test_conso.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tests/test_conso01d.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tests/test_distance.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tests/test_firme.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tests/test_firme01d.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tests/test_obstacles.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tests/test_terrain.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tests/test_tp01c.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tests/test_tp01d.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tools/ezCLI.py	/^__author__  = "Christophe Schlick"$/;"	v
+__author__	tools/mmcContainer.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tools/mmcTools.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__author__	tools/simulateur.py	/^__author__ = "mmc <marc-michel dot corsini at u-bordeaux dot fr>"$/;"	v
+__call__	rna_mmc/rna/libFun.py	/^    def __call__(self, val):$/;"	m	class:Fun	file:
+__call__	rna_mmc/rna/libFun.py	/^    def __call__(self, val):$/;"	m	class:Logit	file:
+__call__	rna_mmc/rna/libFun.py	/^    def __call__(self, val):$/;"	m	class:Tanh	file:
+__consumerAction	BigFile_Terrain.py	/^    def __consumerAction(self, idx:int, dist:np.array) -> tuple:$/;"	m	class:Terrain	file:
+__consumerAction	projet.py	/^    def __consumerAction(self, idx: int, dist: np.array) -> tuple:$/;"	m	class:Terrain	file:
+__contains__	tools/mmcContainer.py	/^    def __contains__(self, elem):$/;"	m	class:MultiSet	file:
+__corpAction	BigFile_Terrain.py	/^    def __corpAction(self, idx:int) -> tuple:$/;"	m	class:Terrain	file:
+__corpAction	projet.py	/^    def __corpAction(self, idx: int) -> tuple:$/;"	m	class:Terrain	file:
+__date__	BigFile_Terrain.py	/^__date__ = "18.03.18"$/;"	v
+__date__	load_tests.py	/^__date__ = "07.02.18"$/;"	v
+__date__	mmcTools.py	/^__date__ = "18.02.16"$/;"	v
+__date__	projet.py	/^__date__ = "18.03.18"$/;"	v
+__date__	rl_mmc/main_tp02.py	/^__date__ = "21.03.18"$/;"	v
+__date__	rl_mmc/rl/base.py	/^__date__ = "21.03.18"$/;"	v
+__date__	rl_mmc/rl/greedy.py	/^__date__ = "21.03.18"$/;"	v
+__date__	rl_mmc/rl/softmax.py	/^__date__ = "21.03.18"$/;"	v
+__date__	rl_mmc/tests/test_rl.py	/^__date__ = "21.03.18"$/;"	v
+__date__	rna_mmc/rna/ffElman.py	/^__date__ = "04.03.18"$/;"	v
+__date__	rna_mmc/rna/ffNet.py	/^__date__ = "02.03.18"$/;"	v
+__date__	rna_mmc/rna/ffNet_with_graph.py	/^__date__ = "02.03.18"$/;"	v
+__date__	rna_mmc/rna/ffRBoltzmann.py	/^__date__ = "05.03.18"$/;"	v
+__date__	rna_mmc/rna/libFun.py	/^__date__ = "11.12.17"$/;"	v
+__date__	rna_mmc/rna/test_digits.py	/^__date__ = "21.12.17"$/;"	v
+__date__	rna_mmc/rna_Readme.py	/^__date__ = "18.03.18"$/;"	v
+__date__	tests/mmcTools.py	/^__date__ = "18.02.16"$/;"	v
+__date__	tests/test_access.py	/^__date__ = "20.02.18"$/;"	v
+__date__	tests/test_conso.py	/^__date__ = "07.02.18"$/;"	v
+__date__	tests/test_conso01d.py	/^__date__ = "13.03.18"$/;"	v
+__date__	tests/test_distance.py	/^__date__ = "20.02.18"$/;"	v
+__date__	tests/test_firme.py	/^__date__ = "07.02.18"$/;"	v
+__date__	tests/test_firme01d.py	/^__date__ = "13.03.18"$/;"	v
+__date__	tests/test_obstacles.py	/^__date__ = "15.02.18"$/;"	v
+__date__	tests/test_terrain.py	/^__date__ = "07.02.18"$/;"	v
+__date__	tests/test_tp01c.py	/^__date__ = "23.02.18"$/;"	v
+__date__	tests/test_tp01d.py	/^__date__ = "23.02.18"$/;"	v
+__date__	tools/ezCLI.py	/^__date__    = "2015-07-01"$/;"	v
+__date__	tools/mmcContainer.py	/^__date__ = "15.02.18"$/;"	v
+__date__	tools/mmcTools.py	/^__date__ = "18.02.16"$/;"	v
+__date__	tools/simulateur.py	/^__date__ = "29.01.18"$/;"	v
+__getattr__	tests/test_tp01c.py	/^    def __getattr__(self, att):$/;"	m	class:Agent	file:
+__getattr__	tools/mmcContainer.py	/^    def __getattr__(self, att):$/;"	m	class:Historique	file:
+__getitem__	tools/simulateur.py	/^    def __getitem__(self, att):$/;"	m	class:Store	file:
+__init__	BigFile_Terrain.py	/^    def __init__(self, lig:int=1, col:int=10, borne:bool=True,$/;"	m	class:Terrain
+__init__	load_tests.py	/^    def __init__(self):$/;"	m	class:Data
+__init__	mmcTools.py	/^        def __init__(self): pass$/;"	m	class:.Fake
+__init__	mmcTools.py	/^        def __init__(self): pass$/;"	m	class:.Fake2
+__init__	mmcTools.py	/^        def __init__(self, v):$/;"	m	class:.XX
+__init__	mmcTools.py	/^    def __init__(self, property_=lambda *args: True, once=False, doc=None):$/;"	m	class:Controle
+__init__	projet.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:LowCorp
+__init__	projet.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:StableCorp
+__init__	projet.py	/^    def __init__(self, cout, preference, estFixe, utilite, pm):$/;"	m	class:AdjustConso
+__init__	projet.py	/^    def __init__(self, cout, preference, estFixe, utilite, pm):$/;"	m	class:PlusConso
+__init__	projet.py	/^    def __init__(self, cout=None, preference=None, estFixe=None, utilite=None, pm=None):$/;"	m	class:Consommateur
+__init__	projet.py	/^    def __init__(self, lig: int = 1, col: int = 10, borne: bool = True,$/;"	m	class:Terrain
+__init__	projet.py	/^    def __init__(self, pm=None, prixMini=None, prixMaxi=None):$/;"	m	class:Firme
+__init__	rl_mmc/rl/base.py	/^    def __init__(self, *args, **kwargs):$/;"	f	function:addID
+__init__	rl_mmc/rl/base.py	/^    def __init__(self, data):$/;"	m	class:RL
+__init__	rl_mmc/rl/greedy.py	/^    def __init__(self, data, epsilon=0.1):$/;"	m	class:EGreedy
+__init__	rl_mmc/rl/softmax.py	/^    def __init__(self, data, Temperature, cte=True):$/;"	m	class:Softmax
+__init__	rna_mmc/rna/ffElman.py	/^    def __init__(self, *args):$/;"	m	class:Elman
+__init__	rna_mmc/rna/ffNet.py	/^    def __init__(self, *args):$/;"	m	class:FeedForward
+__init__	rna_mmc/rna/ffRBoltzmann.py	/^    def __init__(self, in_, hi_):$/;"	m	class:RBoltzmann
+__init__	rna_mmc/rna/libFun.py	/^    def __init__(self, nom:str, theta:Number):$/;"	m	class:Fun
+__init__	rna_mmc/rna/libFun.py	/^    def __init__(self, theta=0, mini=0, maxi=1):$/;"	m	class:Seuil
+__init__	rna_mmc/rna/libFun.py	/^    def __init__(self, theta=0., alpha=1., mini=0., maxi=1.):$/;"	m	class:Linear
+__init__	rna_mmc/rna/libFun.py	/^    def __init__(self, theta=0.01):$/;"	m	class:Logit
+__init__	rna_mmc/rna/libFun.py	/^    def __init__(self, theta=0.01):$/;"	m	class:Tanh
+__init__	tests/mmcTools.py	/^        def __init__(self): pass$/;"	m	class:.Fake
+__init__	tests/mmcTools.py	/^        def __init__(self): pass$/;"	m	class:.Fake2
+__init__	tests/mmcTools.py	/^        def __init__(self, v):$/;"	m	class:.XX
+__init__	tests/mmcTools.py	/^    def __init__(self, property_=lambda *args: True, once=False, doc=None):$/;"	m	class:Controle
+__init__	tests/test_tp01c.py	/^    def __init__(self, **kwargs):$/;"	m	class:Agent
+__init__	tests/test_tp01c.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Consumer
+__init__	tests/test_tp01c.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Corp
+__init__	tests/test_tp01d.py	/^    def __init__(self, cout:callable=lambda x: x, preference:list=None,$/;"	m	class:Customer
+__init__	tools/mmcContainer.py	/^    def __init__(self) -> None:$/;"	m	class:Queue
+__init__	tools/mmcContainer.py	/^    def __init__(self) -> None:$/;"	m	class:Stack
+__init__	tools/mmcContainer.py	/^    def __init__(self, data=None, store='my_data', where='Data'):$/;"	m	class:Historique
+__init__	tools/mmcContainer.py	/^    def __init__(self, param=None):$/;"	m	class:MultiSet
+__init__	tools/mmcContainer.py	/^    def __init__(self, val:any) -> None:$/;"	m	class:UnNoeud
+__init__	tools/mmcTools.py	/^        def __init__(self): pass$/;"	m	class:.Fake
+__init__	tools/mmcTools.py	/^        def __init__(self): pass$/;"	m	class:.Fake2
+__init__	tools/mmcTools.py	/^        def __init__(self, v):$/;"	m	class:.XX
+__init__	tools/mmcTools.py	/^    def __init__(self, property_=lambda *args: True, once=False, doc=None):$/;"	m	class:Controle
+__init__	tools/simulateur.py	/^    def __init__(self):$/;"	m	class:Store
+__iter__	tools/mmcContainer.py	/^    def __iter__(self):$/;"	m	class:MultiSet	file:
+__len__	tools/mmcContainer.py	/^    def __len__(self):$/;"	m	class:MultiSet	file:
+__new__	rna_mmc/rna/test_digits.py	/^    def __new__(cls, array, name="no name"):$/;"	m	class:NamedArray	file:
+__placementFirmes	BigFile_Terrain.py	/^    def __placementFirmes(self) -> list:$/;"	m	class:Terrain	file:
+__placementFirmes	projet.py	/^    def __placementFirmes(self) -> list:$/;"	m	class:Terrain	file:
+__repr__	BigFile_Terrain.py	/^    def __repr__(self):$/;"	m	class:Terrain	file:
+__repr__	projet.py	/^    def __repr__(self):$/;"	m	class:Consommateur	file:
+__repr__	projet.py	/^    def __repr__(self):$/;"	m	class:Firme	file:
+__repr__	projet.py	/^    def __repr__(self):$/;"	m	class:Terrain	file:
+__repr__	rl_mmc/rl/greedy.py	/^    def __repr__(self):$/;"	m	class:EGreedy	file:
+__repr__	rl_mmc/rl/softmax.py	/^    def __repr__(self):$/;"	m	class:Softmax	file:
+__repr__	rna_mmc/rna/ffNet.py	/^    def __repr__(self):$/;"	m	class:FeedForward	file:
+__repr__	rna_mmc/rna/libFun.py	/^    def __repr__(self):$/;"	m	class:Fun	file:
+__repr__	tests/test_tp01c.py	/^    def __repr__(self):$/;"	m	class:Agent	file:
+__repr__	tools/mmcContainer.py	/^    def __repr__(self):$/;"	m	class:Historique	file:
+__repr__	tools/mmcContainer.py	/^    def __repr__(self):$/;"	m	class:MultiSet	file:
+__repr__	tools/simulateur.py	/^    def __repr__(self):$/;"	m	class:Store	file:
+__sansObs	BigFile_Terrain.py	/^    def __sansObs(self, c1:tuple, c2:tuple) -> int:$/;"	m	class:Terrain	file:
+__sansObs	projet.py	/^    def __sansObs(self, c1: tuple, c2: tuple) -> int:$/;"	m	class:Terrain	file:
+__slots__	tests/test_obstacles.py	/^    __slots__ = tuple("what where holes target dist".split())$/;"	v	class:Cfg
+__slots__	tests/test_tp01c.py	/^    __slots__ = ('__m', '_Agent_ID')$/;"	v	class:Agent
+__slots__	tools/mmcContainer.py	/^    __slots__ = ('__store', '__hist')$/;"	v	class:Historique
+__slots__	tools/simulateur.py	/^    __slots__ = ('_Store__store')$/;"	v	class:Store
+__srcloc__	mmcTools.py	/^__srcloc__ = "ASD"$/;"	v
+__srcloc__	tests/mmcTools.py	/^__srcloc__ = "ASD"$/;"	v
+__srcloc__	tools/mmcTools.py	/^__srcloc__ = "ASD"$/;"	v
+__str__	BigFile_Terrain.py	/^    def __str__(self):$/;"	m	class:Terrain	file:
+__str__	mmcTools.py	/^        def __str__(self): return "a = {0.a}, b = {0.b}".format(self)$/;"	m	class:.XX	file:
+__str__	projet.py	/^    def __str__(self):$/;"	m	class:Terrain	file:
+__str__	rl_mmc/rl/greedy.py	/^    def __str__(self):$/;"	m	class:EGreedy	file:
+__str__	rl_mmc/rl/softmax.py	/^    def __str__(self):$/;"	m	class:Softmax	file:
+__str__	tests/mmcTools.py	/^        def __str__(self): return "a = {0.a}, b = {0.b}".format(self)$/;"	m	class:.XX	file:
+__str__	tests/test_tp01c.py	/^    def __str__(self): return self.__class__.__name__[0].lower()$/;"	m	class:Consumer	file:
+__str__	tests/test_tp01c.py	/^    def __str__(self): return self.__class__.__name__[0].upper()$/;"	m	class:Corp	file:
+__str__	tests/test_tp01d.py	/^    def __str__(self): return '!'$/;"	m	class:Customer	file:
+__str__	tools/mmcContainer.py	/^    def __str__(self) -> str:$/;"	m	class:Queue	file:
+__str__	tools/mmcContainer.py	/^    def __str__(self) -> str:$/;"	m	class:Stack	file:
+__str__	tools/mmcContainer.py	/^    def __str__(self): return "<node{0.nom:02d} val={0.valeur}>".format(self)$/;"	m	class:UnNoeud	file:
+__str__	tools/mmcContainer.py	/^    def __str__(self):$/;"	m	class:Historique	file:
+__str__	tools/mmcContainer.py	/^    def __str__(self):$/;"	m	class:MultiSet	file:
+__str__	tools/mmcTools.py	/^        def __str__(self): return "a = {0.a}, b = {0.b}".format(self)$/;"	m	class:.XX	file:
+__str__	tools/simulateur.py	/^    def __str__(self):$/;"	m	class:Store	file:
+__subclasshook__	mmcTools.py	/^            def __subclasshook__(Class, Subclass):$/;"	f	function:coroutine.has_methods.decorator	file:
+__subclasshook__	tests/mmcTools.py	/^            def __subclasshook__(Class, Subclass):$/;"	f	function:coroutine.has_methods.decorator	file:
+__subclasshook__	tools/mmcTools.py	/^            def __subclasshook__(Class, Subclass):$/;"	f	function:coroutine.has_methods.decorator	file:
+__usage__	BigFile_Terrain.py	/^__usage__ = "Projet 2017-2018 Hotelling"$/;"	v
+__usage__	load_tests.py	/^__usage__ = "Test loader pour le projet Hotelling 2017\/2018"$/;"	v
+__usage__	mmcTools.py	/^__usage__ = "Boite à outils"$/;"	v
+__usage__	projet.py	/^__usage__ = "Projet 2017-2018 Hotelling"$/;"	v
+__usage__	rl_mmc/main_tp02.py	/^__usage__ = "TP02 test"$/;"	v
+__usage__	rl_mmc/rl/base.py	/^__usage__ = "Reinforcement Learning basics"$/;"	v
+__usage__	rl_mmc/rl/greedy.py	/^__usage__ = "Reinforcement Learning basics"$/;"	v
+__usage__	rl_mmc/rl/softmax.py	/^__usage__ = "Reinforcement Learning basics"$/;"	v
+__usage__	rl_mmc/tests/test_rl.py	/^__usage__ = "Reinforcement Learning basics"$/;"	v
+__usage__	rna_mmc/rna/ffElman.py	/^__usage__ = "Fonctionnement de base d'un Elman"$/;"	v
+__usage__	rna_mmc/rna/ffNet.py	/^__usage__ = "Fonctionnement de base d'un FeedForward"$/;"	v
+__usage__	rna_mmc/rna/ffNet_with_graph.py	/^__usage__ = "Fonctionnement de base d'un FeedForward"$/;"	v
+__usage__	rna_mmc/rna/ffRBoltzmann.py	/^__usage__ = "Restricted Bolzman"$/;"	v
+__usage__	rna_mmc/rna/libFun.py	/^__usage__ = "Fonctions de transfert"$/;"	v
+__usage__	rna_mmc/rna/test_digits.py	/^__usage__ = "test FeedForward sur les digits"$/;"	v
+__usage__	rna_mmc/rna_Readme.py	/^__usage__ = "Projet 2017-2018 Hotelling"$/;"	v
+__usage__	tests/mmcTools.py	/^__usage__ = "Boite à outils"$/;"	v
+__usage__	tests/test_access.py	/^__usage__ = "Tests coord\/pos pour le projet Hotelling 2017\/2018"$/;"	v
+__usage__	tests/test_conso.py	/^__usage__ = "Test Hotelling: Consommateur"$/;"	v
+__usage__	tests/test_conso01d.py	/^__usage__ = "Test Hotelling: Consommateur"$/;"	v
+__usage__	tests/test_distance.py	/^__usage__ = "Test Hotelling: Distance"$/;"	v
+__usage__	tests/test_firme.py	/^__usage__ = "Test Hotelling Firme"$/;"	v
+__usage__	tests/test_firme01d.py	/^__usage__ = "Test Hotelling Firme"$/;"	v
+__usage__	tests/test_obstacles.py	/^__usage__ = "Tests coord\/pos avec obstacles pour Hotelling 2017\/2018"$/;"	v
+__usage__	tests/test_terrain.py	/^__usage__ = "Test Hotelling: Terrain"$/;"	v
+__usage__	tests/test_tp01c.py	/^__usage__ = "Test Hotelling: Fiche T01c"$/;"	v
+__usage__	tests/test_tp01d.py	/^__usage__ = "Test Hotelling: Fiche T01d"$/;"	v
+__usage__	tools/mmcContainer.py	/^__usage__ = "Container usuels"$/;"	v
+__usage__	tools/mmcTools.py	/^__usage__ = "Boite à outils"$/;"	v
+__usage__	tools/simulateur.py	/^__usage__ = "Simulateur de décision"$/;"	v
+__version__	BigFile_Terrain.py	/^__version__ = "$Id: terrain_tp01a.py,v 1.1 2018\/03\/20 15:05:01 mmc Exp $"$/;"	v
+__version__	load_tests.py	/^__version__ = "$Id: load_tests.py,v 1.11 2018\/03\/13 12:52:37 mmc Exp $"$/;"	v
+__version__	mmcTools.py	/^__version__ = "$Id: mmcTools.py,v 3.4 2018\/02\/09 15:59:00 mmc Exp $"$/;"	v
+__version__	projet.py	/^__version__ = "$Id: terrain_tp01a.py,v 1.1 2018\/03\/20 15:05:01 mmc Exp $"$/;"	v
+__version__	rl_mmc/main_tp02.py	/^__version__ = "$Id: tp02.py,v 1.1 2018\/03\/21 23:57:32 mmc Exp $"$/;"	v
+__version__	rl_mmc/rl/base.py	/^__version__ = "$Id: base.py,v 1.5 2018\/03\/22 09:01:29 mmc Exp $"$/;"	v
+__version__	rl_mmc/rl/greedy.py	/^__version__ = "$Id: greedy.py,v 1.3 2018\/03\/22 08:23:48 mmc Exp $"$/;"	v
+__version__	rl_mmc/rl/softmax.py	/^__version__ = "$Id: softmax.py,v 1.3 2018\/03\/22 08:23:48 mmc Exp $"$/;"	v
+__version__	rl_mmc/tests/test_rl.py	/^__version__ = "$Id: test_rl.py,v 1.1 2018\/03\/21 23:29:36 mmc Exp $"$/;"	v
+__version__	rna_mmc/rna/ffElman.py	/^__version__ = "$Id: ffElman.py,v 1.1 2018\/03\/20 15:13:37 mmc Exp $"$/;"	v
+__version__	rna_mmc/rna/ffNet.py	/^__version__ = "$Id: ffNet.py,v 1.1 2018\/03\/20 15:14:57 mmc Exp $"$/;"	v
+__version__	rna_mmc/rna/ffNet_with_graph.py	/^__version__ = "$Id: ffNet_with_graph.py,v 1.1 2018\/03\/20 15:14:59 mmc Exp $"$/;"	v
+__version__	rna_mmc/rna/ffRBoltzmann.py	/^__version__ = "$Id: ffRBoltzmann.py,v 1.1 2018\/03\/20 15:14:59 mmc Exp $"$/;"	v
+__version__	rna_mmc/rna/libFun.py	/^__version__ = "$Id: libFun.py,v 1.1 2018\/03\/20 15:15:01 mmc Exp $"$/;"	v
+__version__	rna_mmc/rna/test_digits.py	/^__version__ = "$Id: test_digits.py,v 1.1 2018\/03\/20 15:15:02 mmc Exp $"$/;"	v
+__version__	rna_mmc/rna_Readme.py	/^__version__ = "$Id: rna_Readme.py,v 1.1 2018\/03\/20 15:09:02 mmc Exp $"$/;"	v
+__version__	tests/mmcTools.py	/^__version__ = "$Id: mmcTools.py,v 3.4 2018\/02\/09 15:59:00 mmc Exp $"$/;"	v
+__version__	tests/test_access.py	/^__version__ = "$Id: test_access.py,v 1.2 2018\/02\/20 15:12:44 mmc Exp $"$/;"	v
+__version__	tests/test_conso.py	/^__version__ = "$Id: test_conso.py,v 1.8 2018\/03\/13 12:54:46 mmc Exp $"$/;"	v
+__version__	tests/test_conso01d.py	/^__version__ = "$Id: test_conso01d.py,v 1.3 2018\/03\/14 19:55:50 mmc Exp $"$/;"	v
+__version__	tests/test_distance.py	/^__version__ = "$Id: test_distance.py,v 1.3 2018\/02\/27 22:37:04 mmc Exp $"$/;"	v
+__version__	tests/test_firme.py	/^__version__ = "$Id: test_firme.py,v 1.8 2018\/02\/20 15:11:49 mmc Exp $"$/;"	v
+__version__	tests/test_firme01d.py	/^__version__ = "$Id: test_firme01d.py,v 1.3 2018\/03\/13 22:56:59 mmc Exp $"$/;"	v
+__version__	tests/test_obstacles.py	/^__version__ = "$Id: test_obstacles.py,v 1.5 2018\/02\/20 15:11:16 mmc Exp $"$/;"	v
+__version__	tests/test_terrain.py	/^__version__ = "$Id: test_terrain.py,v 1.17 2018\/02\/26 14:06:34 mmc Exp $"$/;"	v
+__version__	tests/test_tp01c.py	/^__version__ = "$Id: test_tp01c.py,v 1.9 2018\/03\/19 10:13:53 mmc Exp $"$/;"	v
+__version__	tests/test_tp01d.py	/^__version__ = "$Id: test_tp01d.py,v 2.0 2018\/03\/20 12:45:00 mmc Exp $"$/;"	v
+__version__	tools/ezCLI.py	/^__version__ = "1.0"$/;"	v
+__version__	tools/mmcContainer.py	/^__version__ = "$Id: mmcContainer.py,v 1.2 2018\/03\/18 15:08:07 mmc Exp $"$/;"	v
+__version__	tools/mmcTools.py	/^__version__ = "$Id: mmcTools.py,v 3.4 2018\/02\/09 15:59:00 mmc Exp $"$/;"	v
+__version__	tools/simulateur.py	/^__version__ = "$Id: simulateur.py,v 1.12 2018\/03\/20 16:56:47 mmc Exp $"$/;"	v
+__withObs	BigFile_Terrain.py	/^    def __withObs(self, c1:tuple, c2:tuple) -> int:$/;"	m	class:Terrain	file:
+__withObs	projet.py	/^    def __withObs(self, c1: tuple, c2: tuple) -> int:$/;"	m	class:Terrain	file:
+_c	load_tests.py	/^    _c = _required["Consommateur"] + "getDecision updateModel reset"$/;"	v
+_dic_att	load_tests.py	/^    _dic_att = {'Terrain': _t.split(),$/;"	v
+_f	load_tests.py	/^    _f = _required["Firme"] + "getDecision updateModel reset"$/;"	v
+_generateConsommateurs	BigFile_Terrain.py	/^    def _generateConsommateurs(self):$/;"	m	class:Terrain
+_generateConsommateurs	projet.py	/^    def _generateConsommateurs(self):$/;"	m	class:Terrain
+_missing	load_tests.py	/^    _missing = []$/;"	v
+_ok	load_tests.py	/^                _ok = False$/;"	v
+_out	load_tests.py	/^    _out = check_property(etudiant != '','acces au fichier')$/;"	v
+_out	tests/test_access.py	/^    _out = check_property(etudiant != '','acces au fichier')$/;"	v
+_out	tests/test_conso.py	/^    _out = check_property(etudiant != '','acces au fichier')$/;"	v
+_out	tests/test_conso01d.py	/^    _out = check_property(etudiant != '','acces au fichier')$/;"	v
+_out	tests/test_distance.py	/^    _out = check_property(etudiant != '','acces au fichier')$/;"	v
+_out	tests/test_firme.py	/^    _out = check_property(etudiant != '','acces au fichier')$/;"	v
+_out	tests/test_firme01d.py	/^    _out = check_property(etudiant != '','acces au fichier')$/;"	v
+_out	tests/test_obstacles.py	/^    _out = check_property(etudiant != '','acces au fichier')$/;"	v
+_out	tests/test_terrain.py	/^    _out = check_property(etudiant != '','acces au fichier')$/;"	v
+_out	tests/test_tp01c.py	/^    _out = check_property(etudiant != '','acces au fichier')$/;"	v
+_out	tests/test_tp01d.py	/^    _out = check_property(etudiant != '','acces au fichier')$/;"	v
+_r	load_tests.py	/^    _r = input("Voulez-vous lancer tous les tests unitaires ? ")$/;"	v
+_required	load_tests.py	/^    _required = {'Terrain':$/;"	v
+_subC	load_tests.py	/^    _subC = "RandConso PlusConso AdjustConso PrefConso "$/;"	v
+_subF	load_tests.py	/^    _subF = "RandCorp LowCorp MidCorp AcidCorp "$/;"	v
+_t	load_tests.py	/^    _t = _required["Terrain"] + "pos2coord coord2pos "$/;"	v
+_tocheck	load_tests.py	/^    _tocheck = "Terrain Firme Consommateur "$/;"	v
+_todo	load_tests.py	/^    _todo = []$/;"	v
+_w	load_tests.py	/^            _w = set(missing).intersection(set(_required.get(_0, "").split()))$/;"	v
+_yes	load_tests.py	/^    _yes = "oO0Yy"$/;"	v
+a	mmcTools.py	/^        a = Controle(lambda _, x: isinstance(x, int))$/;"	v	class:.XX
+a	mmcTools.py	/^        a = klass()$/;"	v	class:.Fake4
+a	tests/mmcTools.py	/^        a = Controle(lambda _, x: isinstance(x, int))$/;"	v	class:.XX
+a	tests/mmcTools.py	/^        a = klass()$/;"	v	class:.Fake4
+a	tools/mmcTools.py	/^        a = Controle(lambda _, x: isinstance(x, int))$/;"	v	class:.XX
+a	tools/mmcTools.py	/^        a = klass()$/;"	v	class:.Fake4
+abc	mmcTools.py	/^import abc$/;"	i
+abc	rna_mmc/rna/libFun.py	/^import abc$/;"	i
+abc	tests/mmcTools.py	/^import abc$/;"	i
+abc	tools/mmcTools.py	/^import abc$/;"	i
+access	tools/ezCLI.py	/^  from time import time # use 'time' to get access to system clock$/;"	i
+action	rl_mmc/rl/greedy.py	/^    def action(self) -> int: return self.__last$/;"	m	class:EGreedy
+action	rl_mmc/rl/softmax.py	/^    def action(self) -> int: return self.__last$/;"	m	class:Softmax
+activations	rna_mmc/rna/ffNet.py	/^    def activations(self, idx):$/;"	m	class:FeedForward
+add	tools/mmcContainer.py	/^    def add(self, key, data):$/;"	m	class:Historique
+add	tools/mmcContainer.py	/^    def add(self, x, occ=1):$/;"	m	class:MultiSet
+add	tools/simulateur.py	/^    def add(self, what: any, why: str):$/;"	m	class:Store
+addCpt	tests/test_tp01d.py	/^def addCpt(fun):$/;"	f
+addID	rl_mmc/rl/base.py	/^def addID(cls):$/;"	f
+adjacent	BigFile_Terrain.py	/^    def adjacent(c:tuple, nbl:int=1, nbc:int=5,$/;"	m	class:Terrain
+adjacent	projet.py	/^    def adjacent(c: tuple, nbl: int = 1, nbc: int = 5,$/;"	m	class:Terrain
+adversaire	mmcTools.py	/^        def adversaire(self): return "gloups"$/;"	m	class:.Fake
+adversaire	mmcTools.py	/^        def adversaire(self): return None$/;"	m	class:.Fake4
+adversaire	tests/mmcTools.py	/^        def adversaire(self): return "gloups"$/;"	m	class:.Fake
+adversaire	tests/mmcTools.py	/^        def adversaire(self): return None$/;"	m	class:.Fake4
+adversaire	tools/mmcTools.py	/^        def adversaire(self): return "gloups"$/;"	m	class:.Fake
+adversaire	tools/mmcTools.py	/^        def adversaire(self): return None$/;"	m	class:.Fake4
+alpha	rna_mmc/rna/libFun.py	/^    def alpha(self): return float(self.__alpha)$/;"	m	class:Linear
+att	tests/test_conso.py	/^    att = "cout preference estFixe utilite pm".split()$/;"	v	class:TestConsommateur
+att	tests/test_conso01d.py	/^    att = "cout preference estFixe utilite pm "$/;"	v	class:TestConso
+att	tests/test_firme.py	/^    att = "pm prixMini prixMaxi".split()$/;"	v	class:TestFirme
+att	tests/test_firme01d.py	/^    att = "pm prixMini prixMaxi".split()$/;"	v	class:TestStable
+att	tests/test_terrain.py	/^    att = ("firmePM prixMinimum prixMaximum " +$/;"	v	class:TestSetter
+att	tests/test_tp01c.py	/^    att = "pm prixMini prixMaxi".split()$/;"	v	class:TestMid
+b	mmcTools.py	/^        b = Controle(lambda _, x: isinstance(x, int), True)$/;"	v	class:.XX
+b	tests/mmcTools.py	/^        b = Controle(lambda _, x: isinstance(x, int), True)$/;"	v	class:.XX
+b	tools/mmcTools.py	/^        b = Controle(lambda _, x: isinstance(x, int), True)$/;"	v	class:.XX
+backward	rna_mmc/rna/ffNet.py	/^    def backward(self, target, alpha=.7, beta=.1):$/;"	f
+batch	rna_mmc/rna/ffRBoltzmann.py	/^    def batch(self, base, epoch, lRate=.7, update=False, verbose=False):$/;"	m	class:RBoltzmann
+build	tests/test_obstacles.py	/^    def build(self, key):$/;"	m	class:TestObstaclesBound
+build_center	tests/test_obstacles.py	/^    def build_center(self):$/;"	m	class:TestObstaclesBound
+build_center	tests/test_obstacles.py	/^    def build_center(self):$/;"	m	class:TestObstaclesTore
+build_corner	tests/test_obstacles.py	/^    def build_corner(self):$/;"	m	class:TestObstaclesBound
+build_corner	tests/test_obstacles.py	/^    def build_corner(self):$/;"	m	class:TestObstaclesTore
+build_mid	tests/test_obstacles.py	/^    def build_mid(self):$/;"	m	class:TestObstaclesBound
+build_mid	tests/test_obstacles.py	/^    def build_mid(self):$/;"	m	class:TestObstaclesTore
+build_midlock	tests/test_obstacles.py	/^    def build_midlock(self):$/;"	m	class:TestObstaclesBound
+build_midlock	tests/test_obstacles.py	/^    def build_midlock(self):$/;"	m	class:TestObstaclesTore
+c	load_tests.py	/^    c = Data()$/;"	v
+caller	tools/ezCLI.py	/^  from inspect import stack # use 'stack' to get namespace from caller function$/;"	i
+check	BigFile_Terrain.py	/^        def check(idx, val):$/;"	f	function:Terrain.step
+check	projet.py	/^        def check(idx, val):$/;"	f	function:Terrain.step
+checkFuns	rna_mmc/rna/ffNet.py	/^    def checkFuns(self):$/;"	m	class:FeedForward
+checkMe	mmcTools.py	/^def checkMe(cls):$/;"	f
+checkMe	tests/mmcTools.py	/^def checkMe(cls):$/;"	f
+checkMe	tools/mmcTools.py	/^def checkMe(cls):$/;"	f
+check_attr	tests/test_conso.py	/^def check_attr(obj, att):$/;"	f
+check_attr	tests/test_conso01d.py	/^def check_attr(obj, att):$/;"	f
+check_attr	tests/test_firme.py	/^def check_attr(obj, att):$/;"	f
+check_attr	tests/test_firme01d.py	/^def check_attr(obj, att):$/;"	f
+check_attr	tests/test_terrain.py	/^def check_attr(obj, att):$/;"	f
+check_attr	tests/test_tp01c.py	/^def check_attr(obj, att):$/;"	f
+check_attr	tests/test_tp01d.py	/^def check_attr(obj, att):$/;"	f
+check_class	tests/test_conso.py	/^def check_class(klass):$/;"	f
+check_class	tests/test_conso01d.py	/^def check_class(klass):$/;"	f
+check_class	tests/test_firme.py	/^def check_class(klass):$/;"	f
+check_class	tests/test_firme01d.py	/^def check_class(klass):$/;"	f
+check_class	tests/test_terrain.py	/^def check_class(klass):$/;"	f
+check_class	tests/test_tp01c.py	/^def check_class(klass):$/;"	f
+check_class	tests/test_tp01d.py	/^def check_class(klass):$/;"	f
+check_me	load_tests.py	/^        check_me = []$/;"	v
+check_property	load_tests.py	/^from mmcTools import check_property, check_validity$/;"	i
+check_property	mmcTools.py	/^def check_property(p, msg='default', letter='E'):$/;"	f
+check_property	tests/mmcTools.py	/^def check_property(p, msg='default', letter='E'):$/;"	f
+check_property	tests/test_access.py	/^from mmcTools import check_property$/;"	i
+check_property	tests/test_conso.py	/^from mmcTools import check_property$/;"	i
+check_property	tests/test_conso01d.py	/^from mmcTools import check_property$/;"	i
+check_property	tests/test_distance.py	/^from mmcTools import check_property$/;"	i
+check_property	tests/test_firme.py	/^from mmcTools import check_property$/;"	i
+check_property	tests/test_firme01d.py	/^from mmcTools import check_property$/;"	i
+check_property	tests/test_obstacles.py	/^from mmcTools import check_property$/;"	i
+check_property	tests/test_terrain.py	/^from mmcTools import check_property$/;"	i
+check_property	tests/test_tp01c.py	/^from mmcTools import check_property$/;"	i
+check_property	tests/test_tp01d.py	/^from mmcTools import check_property$/;"	i
+check_property	tools/mmcTools.py	/^def check_property(p, msg='default', letter='E'):$/;"	f
+check_subclass	load_tests.py	/^def check_subclass(module, k1, k2):$/;"	f
+check_validity	load_tests.py	/^from mmcTools import check_property, check_validity$/;"	i
+check_validity	mmcTools.py	/^def check_validity(mymodule, klassname, obj=None, lattr=[], zapit=None):$/;"	f
+check_validity	tests/mmcTools.py	/^def check_validity(mymodule, klassname, obj=None, lattr=[], zapit=None):$/;"	f
+check_validity	tools/mmcTools.py	/^def check_validity(mymodule, klassname, obj=None, lattr=[], zapit=None):$/;"	f
+classification_report	rna_mmc/rna/test_digits.py	/^    from sklearn.metrics import confusion_matrix, classification_report$/;"	i
+clientCost	BigFile_Terrain.py	/^    clientCost = property(get_clientCost, set_clientCost)$/;"	v	class:Terrain
+clientCost	projet.py	/^    clientCost = property(get_clientCost, set_clientCost)$/;"	v	class:Terrain
+clientPM	BigFile_Terrain.py	/^    clientPM = property(get_clientPM, set_clientPM)        $/;"	v	class:Terrain
+clientPM	projet.py	/^    clientPM = property(get_clientPM, set_clientPM)$/;"	v	class:Terrain
+clientPreference	BigFile_Terrain.py	/^    clientPreference = property(get_clientPreference, set_clientPreference)$/;"	v	class:Terrain
+clientPreference	projet.py	/^    clientPreference = property(get_clientPreference, set_clientPreference)$/;"	v	class:Terrain
+clientUtility	BigFile_Terrain.py	/^    clientUtility = property(get_clientUtility, set_clientUtility)$/;"	v	class:Terrain
+clientUtility	projet.py	/^    clientUtility = property(get_clientUtility, set_clientUtility)$/;"	v	class:Terrain
+clock	tools/ezCLI.py	/^  from time import time # use 'time' to get access to system clock$/;"	i
+collections	mmcTools.py	/^import collections$/;"	i
+collections	tests/mmcTools.py	/^import collections$/;"	i
+collections	tools/mmcTools.py	/^import collections$/;"	i
+colonnes	BigFile_Terrain.py	/^    def colonnes(self): return self.__nc$/;"	m	class:Terrain
+colonnes	projet.py	/^    def colonnes(self):$/;"	m	class:Terrain
+compact	tools/mmcContainer.py	/^    def compact(self):$/;"	m	class:MultiSet
+confusionMatrix	rna_mmc/rna/test_digits.py	/^def confusionMatrix(net, base, title='default', seuil=.9):$/;"	f
+confusion_matrix	rna_mmc/rna/test_digits.py	/^    from sklearn.metrics import confusion_matrix, classification_report$/;"	i
+conso_simulateur	tools/simulateur.py	/^def conso_simulateur(nbIter: int = 50, c: Consommateur = Consommateur()) -> dict:$/;"	f
+convert	tools/ezCLI.py	/^def convert(string):$/;"	f
+coord2pos	BigFile_Terrain.py	/^    def coord2pos(self, c:tuple):$/;"	m	class:Terrain
+coord2pos	projet.py	/^    def coord2pos(self, c: tuple):$/;"	m	class:Terrain
+coordAccess	BigFile_Terrain.py	/^    def coordAccess(self, c:tuple, r:int) -> list:$/;"	m	class:Terrain
+coordAccess	projet.py	/^    def coordAccess(self, c: tuple, r: int) -> list:$/;"	m	class:Terrain
+coordDistance	BigFile_Terrain.py	/^    def coordDistance(self, c1:tuple, c2:tuple) -> int:$/;"	m	class:Terrain
+coordDistance	projet.py	/^    def coordDistance(self, c1: tuple, c2: tuple) -> int:$/;"	m	class:Terrain
+copy	mmcTools.py	/^import copy$/;"	i
+copy	tests/mmcTools.py	/^import copy$/;"	i
+copy	tools/mmcTools.py	/^import copy$/;"	i
+coroutine	mmcTools.py	/^def coroutine(fun):$/;"	f
+coroutine	tests/mmcTools.py	/^def coroutine(fun):$/;"	f
+coroutine	tools/mmcTools.py	/^def coroutine(fun):$/;"	f
+counter	rl_mmc/rl/greedy.py	/^    def counter(self) -> int: return self.__step$/;"	m	class:EGreedy
+counter	rl_mmc/rl/softmax.py	/^    def counter(self) -> int: return self.__step$/;"	m	class:Softmax
+cout	projet.py	/^    def cout(self):$/;"	m	class:Consommateur
+csv	tools/ezCLI.py	/^  def csv(string, raw, colsep, rowsep):$/;"	f	function:read_csv
+dBase	rna_mmc/rna/test_digits.py	/^def dBase(visual=False, logit=False, saturation=False):$/;"	f
+dReader	rna_mmc/rna/test_digits.py	/^def dReader(visual=False, logit=False, saturation=False):$/;"	f
+datasets	rna_mmc/rna/test_digits.py	/^    from sklearn import datasets$/;"	i
+de	rna_mmc/rna/ffElman.py	/^import rna.libFun as libFun # les fonctions de transfert$/;"	i
+de	rna_mmc/rna/ffNet.py	/^import rna.libFun as libFun # les fonctions de transfert$/;"	i
+decision	rl_mmc/rl/greedy.py	/^    def decision(self) -> int:$/;"	m	class:EGreedy
+decision	rl_mmc/rl/softmax.py	/^    def decision(self) -> int:$/;"	m	class:Softmax
+decorator	mmcTools.py	/^        def decorator(Base):$/;"	f	function:coroutine.has_methods
+decorator	tests/mmcTools.py	/^        def decorator(Base):$/;"	f	function:coroutine.has_methods
+decorator	tools/mmcTools.py	/^        def decorator(Base):$/;"	f	function:coroutine.has_methods
+del_population	BigFile_Terrain.py	/^    def del_population(self) -> None: self.__pop = MultiSet()$/;"	m	class:Terrain
+del_population	projet.py	/^    def del_population(self) -> None:$/;"	m	class:Terrain
+deltas	rna_mmc/rna/ffNet.py	/^    def deltas(self, idx):$/;"	m	class:FeedForward
+deplacement	projet.py	/^    deplacement = (-1, 0)$/;"	v	class:UpCorp
+deplacement	projet.py	/^    deplacement = (0, -1)$/;"	v	class:LeftCorp
+deplacement	projet.py	/^    deplacement = (0, 0)$/;"	v	class:StableCorp
+deplacement	projet.py	/^    deplacement = (0, 1)$/;"	v	class:RightCorp
+deplacement	projet.py	/^    deplacement = (1, 0)$/;"	v	class:DownCorp
+display	tools/simulateur.py	/^def display(dic: dict) -> None:$/;"	f
+display_historique	tools/simulateur.py	/^def display_historique(dic: dict) -> None:$/;"	f
+display_utility	tools/simulateur.py	/^def display_utility(dic: dict) -> None:$/;"	f
+distance	tests/test_obstacles.py	/^    def distance(self): #tout pour distance$/;"	m	class:Cfg
+dmin	BigFile_Terrain.py	/^    def dmin(self): return self.__dmin$/;"	m	class:Terrain
+dmin	projet.py	/^    def dmin(self):$/;"	m	class:Terrain
+doc	mmcTools.py	/^    def doc(self): return self.__doc$/;"	m	class:Controle
+doc	tests/mmcTools.py	/^    def doc(self): return self.__doc$/;"	m	class:Controle
+doc	tools/mmcTools.py	/^    def doc(self): return self.__doc$/;"	m	class:Controle
+elements	tools/mmcContainer.py	/^    def elements(self):$/;"	m	class:MultiSet
+enveloppe	mmcTools.py	/^        def enveloppe(*args, **kargs):$/;"	f	function:signature
+enveloppe	mmcTools.py	/^        def enveloppe(*args, **kw):$/;"	f	function:coroutine.tracing
+enveloppe	mmcTools.py	/^        def enveloppe(*args, **kwrags):$/;"	f	function:signature
+enveloppe	mmcTools.py	/^    def enveloppe(*args, **kwargs):$/;"	f	function:coroutine
+enveloppe	tests/mmcTools.py	/^        def enveloppe(*args, **kargs):$/;"	f	function:signature
+enveloppe	tests/mmcTools.py	/^        def enveloppe(*args, **kw):$/;"	f	function:coroutine.tracing
+enveloppe	tests/mmcTools.py	/^        def enveloppe(*args, **kwrags):$/;"	f	function:signature
+enveloppe	tests/mmcTools.py	/^    def enveloppe(*args, **kwargs):$/;"	f	function:coroutine
+enveloppe	tools/mmcContainer.py	/^    def enveloppe(self, v):$/;"	f	function:intRequired
+enveloppe	tools/mmcTools.py	/^        def enveloppe(*args, **kargs):$/;"	f	function:signature
+enveloppe	tools/mmcTools.py	/^        def enveloppe(*args, **kw):$/;"	f	function:coroutine.tracing
+enveloppe	tools/mmcTools.py	/^        def enveloppe(*args, **kwrags):$/;"	f	function:signature
+enveloppe	tools/mmcTools.py	/^    def enveloppe(*args, **kwargs):$/;"	f	function:coroutine
+epsilon	rl_mmc/rl/greedy.py	/^    def epsilon(self) -> float: return self.__epsilon$/;"	m	class:EGreedy
+errors	rna_mmc/rna/ffNet.py	/^    def errors(self, idx):$/;"	m	class:FeedForward
+estFixe	projet.py	/^    def estFixe(self):$/;"	m	class:Consommateur
+etudiant	load_tests.py	/^    etudiant = param.split('.')[0]$/;"	v
+etudiant	tests/test_access.py	/^    etudiant = param.split('.')[0]$/;"	v
+etudiant	tests/test_conso.py	/^    etudiant = param.split('.')[0]$/;"	v
+etudiant	tests/test_conso01d.py	/^    etudiant = param.split('.')[0]$/;"	v
+etudiant	tests/test_distance.py	/^    etudiant = param.split('.')[0]$/;"	v
+etudiant	tests/test_firme.py	/^    etudiant = param.split('.')[0]$/;"	v
+etudiant	tests/test_firme01d.py	/^    etudiant = param.split('.')[0]$/;"	v
+etudiant	tests/test_obstacles.py	/^    etudiant = param.split('.')[0]$/;"	v
+etudiant	tests/test_terrain.py	/^    etudiant = param.split('.')[0]$/;"	v
+etudiant	tests/test_tp01c.py	/^    etudiant = param.split('.')[0]$/;"	v
+etudiant	tests/test_tp01d.py	/^    etudiant = param.split('.')[0]$/;"	v
+evalexec	tools/ezCLI.py	/^  def evalexec(statement, namespace):$/;"	f	function:testcode
+export	tests/test_obstacles.py	/^    def export(self): #tout pour accessible$/;"	m	class:Cfg
+ezCLI_grid	BigFile_Terrain.py	/^from tools.ezCLI import grid as ezCLI_grid$/;"	i
+ezCLI_grid	projet.py	/^from tools.ezCLI import grid as ezCLI_grid$/;"	i
+ezCLIdemo	tools/ezCLI.py	/^  from ezCLIdemo import ezCLIdemo$/;"	i
+f	rna_mmc/rna/libFun.py	/^    def f(self, val): pass$/;"	m	class:Fun
+f	rna_mmc/rna/libFun.py	/^    def f(self, val):$/;"	m	class:Linear
+f	rna_mmc/rna/libFun.py	/^    def f(self, val):$/;"	m	class:Logit
+f	rna_mmc/rna/libFun.py	/^    def f(self, val):$/;"	m	class:Seuil
+f	rna_mmc/rna/libFun.py	/^    def f(self, val):$/;"	m	class:Tanh
+ffNet	rna_mmc/rna/ffNet_with_graph.py	/^import rna.ffNet as ffNet$/;"	i
+fini	BigFile_Terrain.py	/^    def fini(self): return self.__bound$/;"	m	class:Terrain
+fini	projet.py	/^    def fini(self):$/;"	m	class:Terrain
+firm_simulateur	tools/simulateur.py	/^def firm_simulateur(nbIter: int = 50, fklass: Firme = Firme,$/;"	f
+firmePM	BigFile_Terrain.py	/^    firmePM = property(get_firmePM, set_firmePM)$/;"	v	class:Terrain
+firmePM	projet.py	/^    firmePM = property(get_firmePM, set_firmePM)$/;"	v	class:Terrain
+firmes	BigFile_Terrain.py	/^    def firmes(self): return self.__nf$/;"	m	class:Terrain
+firmes	projet.py	/^    def firmes(self):$/;"	m	class:Terrain
+fit	rna_mmc/rna/ffElman.py	/^def fit(net, datas, epoch=5000, gError=1e-2, alpha=.7, beta=.1,$/;"	f
+fit	rna_mmc/rna/ffNet.py	/^def fit(net, datas, epoch=5000, gError=1e-2, alpha=.7, beta=.1,$/;"	f
+fit	rna_mmc/rna/ffNet_with_graph.py	/^    def fit(self, datas, epoch=5000, gError=1e-2, alpha=.7, beta=.1,$/;"	m	class:MLP
+fit	rna_mmc/rna/ffRBoltzmann.py	/^    def fit(self, base, epoch=5000, gError=1e-2, alpha=.7, verbose=True):$/;"	m	class:RBoltzmann
+fitAndCheck	rna_mmc/rna/ffNet_with_graph.py	/^    def fitAndCheck(self, dataLearn, dataCheck, epoch=5000,$/;"	m	class:MLP
+flushActivation	rna_mmc/rna/ffNet.py	/^    def flushActivation(self, idx):$/;"	m	class:FeedForward
+fonctions	rna_mmc/rna/ffElman.py	/^import rna.libFun as libFun # les fonctions de transfert$/;"	i
+fonctions	rna_mmc/rna/ffNet.py	/^import rna.libFun as libFun # les fonctions de transfert$/;"	i
+forward	rna_mmc/rna/ffElman.py	/^    def forward(self, data):$/;"	m	class:Elman
+forward	rna_mmc/rna/ffNet.py	/^    def forward(self, data):$/;"	f
+from	tools/ezCLI.py	/^  from inspect import stack # use 'stack' to get namespace from caller function$/;"	i
+fun	mmcTools.py	/^    def fun(x: int, y: int) -> any : return x+y$/;"	f
+fun	tests/mmcTools.py	/^    def fun(x: int, y: int) -> any : return x+y$/;"	f
+fun	tools/mmcTools.py	/^    def fun(x: int, y: int) -> any : return x+y$/;"	f
+function	tools/ezCLI.py	/^  from inspect import stack # use 'stack' to get namespace from caller function$/;"	i
+functools	mmcTools.py	/^import functools$/;"	i
+functools	tests/mmcTools.py	/^import functools$/;"	i
+functools	tests/test_tp01d.py	/^import functools$/;"	i
+functools	tools/mmcContainer.py	/^import functools$/;"	i
+functools	tools/mmcTools.py	/^import functools$/;"	i
+funs	rna_mmc/rna/ffNet.py	/^    funs = property(getVectFuns, setVectFuns,$/;"	v	class:FeedForward
+gErr	rna_mmc/rna/ffNet_with_graph.py	/^    def gErr(self): return self.__verr$/;"	m	class:MLP
+gagnant	mmcTools.py	/^        def gagnant(self): return True$/;"	m	class:.Fake
+gagnant	mmcTools.py	/^        def gagnant(self): return True$/;"	m	class:.Fake2
+gagnant	tests/mmcTools.py	/^        def gagnant(self): return True$/;"	m	class:.Fake
+gagnant	tests/mmcTools.py	/^        def gagnant(self): return True$/;"	m	class:.Fake2
+gagnant	tools/mmcTools.py	/^        def gagnant(self): return True$/;"	m	class:.Fake
+gagnant	tools/mmcTools.py	/^        def gagnant(self): return True$/;"	m	class:.Fake2
+generate	tools/simulateur.py	/^    def generate(nb, vmax, valid, col):$/;"	f	function:firm_simulateur
+get	tools/ezCLI.py	/^  from inspect import stack # use 'stack' to get namespace from caller function$/;"	i
+get	tools/ezCLI.py	/^  from time import time # use 'time' to get access to system clock$/;"	i
+getConsommateur	BigFile_Terrain.py	/^    def getConsommateur(self, idx:int):$/;"	m	class:Terrain
+getConsommateur	projet.py	/^    def getConsommateur(self, idx: int):$/;"	m	class:Terrain
+getDecision	projet.py	/^    def getDecision(self):$/;"	m	class:Consommateur
+getDecision	projet.py	/^    def getDecision(self):$/;"	m	class:RandConso
+getDecision	projet.py	/^    def getDecision(self, *args, **kwargs):$/;"	m	class:Firme
+getDecision	projet.py	/^    def getDecision(self, *args, **kwargs):$/;"	m	class:LowCorp
+getDecision	projet.py	/^    def getDecision(self, *args, **kwargs):$/;"	m	class:MidCorp
+getDecision	projet.py	/^    def getDecision(self, *args, **kwargs):$/;"	m	class:RandCorp
+getDecision	projet.py	/^    def getDecision(self, *args, **kwargs):$/;"	m	class:StableCorp
+getDecision	tests/test_tp01c.py	/^    def getDecision(self, *args, **kwargs):$/;"	m	class:Agent
+getDecision	tests/test_tp01d.py	/^    def getDecision(self, *args, **kwargs): return 0$/;"	m	class:Customer
+getFirme	BigFile_Terrain.py	/^    def getFirme(self, idx:int):$/;"	m	class:Terrain
+getFirme	projet.py	/^    def getFirme(self, idx: int):$/;"	m	class:Terrain
+getMe	mmcTools.py	/^        def getMe(self): return getattr(self, _prive)$/;"	f	function:checkMe.make_property
+getMe	tests/mmcTools.py	/^        def getMe(self): return getattr(self, _prive)$/;"	f	function:checkMe.make_property
+getMe	tools/mmcTools.py	/^        def getMe(self): return getattr(self, _prive)$/;"	f	function:checkMe.make_property
+getObstacles	BigFile_Terrain.py	/^    def getObstacles(self) -> list: return self.__posObstacles[:]$/;"	m	class:Terrain
+getObstacles	projet.py	/^    def getObstacles(self) -> list:$/;"	m	class:Terrain
+getPosFirme	BigFile_Terrain.py	/^    def getPosFirme(self, idx:int) -> int:$/;"	m	class:Terrain
+getPosFirme	projet.py	/^    def getPosFirme(self, idx: int) -> int:$/;"	m	class:Terrain
+getVectFuns	rna_mmc/rna/ffNet.py	/^    def getVectFuns(self): return self.__funs$/;"	m	class:FeedForward
+get_clientCost	BigFile_Terrain.py	/^    def get_clientCost(self): return self.__cLambda$/;"	m	class:Terrain
+get_clientCost	projet.py	/^    def get_clientCost(self):$/;"	m	class:Terrain
+get_clientPM	BigFile_Terrain.py	/^    def get_clientPM(self): return self.__cPM$/;"	m	class:Terrain
+get_clientPM	projet.py	/^    def get_clientPM(self):$/;"	m	class:Terrain
+get_clientPreference	BigFile_Terrain.py	/^    def get_clientPreference(self): return self.__cPref$/;"	m	class:Terrain
+get_clientPreference	projet.py	/^    def get_clientPreference(self):$/;"	m	class:Terrain
+get_clientUtility	BigFile_Terrain.py	/^    def get_clientUtility(self): return self.__cUtil$/;"	m	class:Terrain
+get_clientUtility	projet.py	/^    def get_clientUtility(self):$/;"	m	class:Terrain
+get_finalState	BigFile_Terrain.py	/^    def get_finalState(self):$/;"	m	class:Terrain
+get_finalState	projet.py	/^    def get_finalState(self):$/;"	m	class:Terrain
+get_firmePM	BigFile_Terrain.py	/^    def get_firmePM(self): return self.__fPM$/;"	m	class:Terrain
+get_firmePM	projet.py	/^    def get_firmePM(self):$/;"	m	class:Terrain
+get_initState	BigFile_Terrain.py	/^    def get_initState(self):$/;"	m	class:Terrain
+get_initState	projet.py	/^    def get_initState(self):$/;"	m	class:Terrain
+get_population	BigFile_Terrain.py	/^    def get_population(self) -> set: return self.__pop.toSet()$/;"	m	class:Terrain
+get_population	projet.py	/^    def get_population(self) -> set:$/;"	m	class:Terrain
+get_prixMaximum	BigFile_Terrain.py	/^    def get_prixMaximum(self): return self.__pmaxi$/;"	m	class:Terrain
+get_prixMaximum	projet.py	/^    def get_prixMaximum(self):$/;"	m	class:Terrain
+get_prixMinimum	BigFile_Terrain.py	/^    def get_prixMinimum(self): return self.__pmini$/;"	m	class:Terrain
+get_prixMinimum	projet.py	/^    def get_prixMinimum(self):$/;"	m	class:Terrain
+get_structure	BigFile_Terrain.py	/^    def get_structure(self):$/;"	m	class:Terrain
+get_structure	projet.py	/^    def get_structure(self):$/;"	m	class:Terrain
+greedy	rl_mmc/rl/base.py	/^    def greedy(state:np.ndarray, eps:Number) -> int:$/;"	m	class:RL
+grid	tools/ezCLI.py	/^def grid(matrix, inner=True, outer=True, label=False, size=None):$/;"	f
+gun	mmcTools.py	/^    def gun(x: int, y: float = 1.2) -> int: y**x # genere une erreur $/;"	f
+gun	tests/mmcTools.py	/^    def gun(x: int, y: float = 1.2) -> int: y**x # genere une erreur $/;"	f
+gun	tools/mmcTools.py	/^    def gun(x: int, y: float = 1.2) -> int: y**x # genere une erreur $/;"	f
+hasSklearn	rna_mmc/rna/test_digits.py	/^    hasSklearn = False$/;"	v
+hasSklearn	rna_mmc/rna/test_digits.py	/^    hasSklearn = True$/;"	v
+has_failure	mmcTools.py	/^def has_failure(string, sz=1):$/;"	f
+has_failure	tests/mmcTools.py	/^def has_failure(string, sz=1):$/;"	f
+has_failure	tools/mmcTools.py	/^def has_failure(string, sz=1):$/;"	f
+has_methods	mmcTools.py	/^    def has_methods(*methods):$/;"	f	function:coroutine
+has_methods	tests/mmcTools.py	/^    def has_methods(*methods):$/;"	f	function:coroutine
+has_methods	tools/mmcTools.py	/^    def has_methods(*methods):$/;"	f	function:coroutine
+hum	tests/test_tp01d.py	/^import unittest.mock as hum$/;"	i
+ignore	load_tests.py	/^                ignore = klass$/;"	v
+ignore	load_tests.py	/^        ignore = None$/;"	v
+initialState	rl_mmc/rl/base.py	/^    def initialState(self) -> np.ndarray:$/;"	m	class:RL
+inject	tools/ezCLI.py	/^def inject(string, cells, pattern='###', trunc=True):$/;"	f
+inspect	mmcTools.py	/^import inspect$/;"	i
+inspect	tests/mmcTools.py	/^import inspect$/;"	i
+inspect	tools/ezCLI.py	/^def inspect(names=False, show=True, wrap=True, field=80):$/;"	f
+inspect	tools/mmcTools.py	/^import inspect$/;"	i
+intRequired	BigFile_Terrain.py	/^from tools.mmcContainer import intRequired$/;"	i
+intRequired	projet.py	/^from tools.mmcContainer import intRequired$/;"	i
+intRequired	tools/mmcContainer.py	/^def intRequired(fun):$/;"	f
+isEmpty	tools/mmcContainer.py	/^    def isEmpty(self) -> bool:$/;"	m	class:Queue
+isEmpty	tools/mmcContainer.py	/^    def isEmpty(self) -> bool:$/;"	m	class:Stack
+kwarg	tests/test_terrain.py	/^    kwarg = "lignes colonnes fini obstacles firmes dmin voisinage".split()$/;"	v	class:TestLand
+les	rna_mmc/rna/ffElman.py	/^import rna.libFun as libFun # les fonctions de transfert$/;"	i
+les	rna_mmc/rna/ffNet.py	/^import rna.libFun as libFun # les fonctions de transfert$/;"	i
+libFun	rna_mmc/rna/ffElman.py	/^import rna.libFun as libFun # les fonctions de transfert$/;"	i
+libFun	rna_mmc/rna/ffNet.py	/^import rna.libFun as libFun # les fonctions de transfert$/;"	i
+libFun	rna_mmc/rna/ffNet_with_graph.py	/^import rna.libFun as libFun$/;"	i
+lignes	BigFile_Terrain.py	/^    def lignes(self): return self.__nl$/;"	m	class:Terrain
+lignes	projet.py	/^    def lignes(self):$/;"	m	class:Terrain
+load	tools/mmcContainer.py	/^    def load(cls, fichier:str):$/;"	f	function:serialize
+load	tools/mmcContainer.py	/^    def load(self) -> dict:$/;"	m	class:Historique
+loadBase	rna_mmc/rna/test_digits.py	/^    loadBase = 'dBase'$/;"	v
+local_check	load_tests.py	/^def local_check(module, klass, names, zap, coll):$/;"	f
+local_main	rl_mmc/tests/test_rl.py	/^def local_main():$/;"	f
+local_main	rna_mmc/rna/ffElman.py	/^def local_main():$/;"	f
+local_main	rna_mmc/rna/ffNet.py	/^def local_main():$/;"	f
+local_main	rna_mmc/rna/ffNet_with_graph.py	/^def local_main():$/;"	f
+local_main	rna_mmc/rna/ffRBoltzmann.py	/^def local_main():$/;"	f
+local_main	rna_mmc/rna/test_digits.py	/^def local_main():$/;"	f
+lock	mmcTools.py	/^    def lock(self): return self.__lock$/;"	m	class:Controle
+lock	tests/mmcTools.py	/^    def lock(self): return self.__lock$/;"	m	class:Controle
+lock	tools/mmcTools.py	/^    def lock(self): return self.__lock$/;"	m	class:Controle
+logging	mmcTools.py	/^import logging, tempfile$/;"	i
+logging	tests/mmcTools.py	/^import logging, tempfile$/;"	i
+logging	tools/mmcTools.py	/^import logging, tempfile$/;"	i
+logit	rna_mmc/rna/ffRBoltzmann.py	/^def logit(theta, x): return (1. \/ (1+np.exp(theta* -x)))$/;"	f
+makeBase	rna_mmc/rna/test_digits.py	/^def makeBase(base, dico):$/;"	f
+make_property	mmcTools.py	/^    def make_property(name, att):$/;"	f	function:checkMe
+make_property	tests/mmcTools.py	/^    def make_property(name, att):$/;"	f	function:checkMe
+make_property	tools/mmcTools.py	/^    def make_property(name, att):$/;"	f	function:checkMe
+math	rna_mmc/rna/libFun.py	/^import math$/;"	i
+matplotlib	rna_mmc/rna/ffNet.py	/^    import matplotlib.pyplot as plt$/;"	i
+matplotlib	rna_mmc/rna/ffNet_with_graph.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	rna_mmc/rna/test_digits.py	/^import matplotlib.pyplot as plt$/;"	i
+memoize	tools/mmcContainer.py	/^def memoize(fn):$/;"	f
+memoized_fn	tools/mmcContainer.py	/^    def memoized_fn(*args, **kargs):$/;"	f	function:memoize
+missing	load_tests.py	/^        missing = []$/;"	v
+missing_att	load_tests.py	/^missing_att = {x: [] for x in "Terrain Consommateur Firme".split()}$/;"	v
+msg	rna_mmc/rna/ffNet.py	/^    msg = "dont waste my time"$/;"	v	class:FeedForward
+msg	rna_mmc/rna/ffRBoltzmann.py	/^    msg = "dont waste my time"$/;"	v	class:RBoltzmann
+msgErr	rna_mmc/rna/test_digits.py	/^msgErr = "something odd is hapening, test {}"$/;"	v
+multiplicity	tools/mmcContainer.py	/^    def multiplicity(self, val):$/;"	m	class:MultiSet
+name	rna_mmc/rna/libFun.py	/^    def name(self): return self.__name__$/;"	m	class:Fun
+namespace	tools/ezCLI.py	/^  from inspect import stack # use 'stack' to get namespace from caller function$/;"	i
+nbPush	tools/mmcContainer.py	/^    def nbPush(self) -> int: return self.__nbpush$/;"	m	class:Queue
+nbPush	tools/mmcContainer.py	/^    def nbPush(self) -> int: return self.__nbpush$/;"	m	class:Stack
+nom	tests/test_firme01d.py	/^    nom = "DownCorp"$/;"	v	class:TestDown
+nom	tests/test_firme01d.py	/^    nom = "LeftCorp"$/;"	v	class:TestLeft
+nom	tests/test_firme01d.py	/^    nom = "RightCorp"$/;"	v	class:TestRight
+nom	tests/test_firme01d.py	/^    nom = "UpCorp"$/;"	v	class:TestUp
+nom	tests/test_firme01d.py	/^    nom = 'StableCorp'$/;"	v	class:TestStable
+nom	tools/mmcContainer.py	/^    def nom(self): return self.__name$/;"	m	class:UnNoeud
+np	BigFile_Terrain.py	/^import numpy as np$/;"	i
+np	projet.py	/^import numpy as np$/;"	i
+np	rl_mmc/rl/base.py	/^import numpy as np$/;"	i
+np	rl_mmc/rl/greedy.py	/^import numpy as np$/;"	i
+np	rl_mmc/rl/softmax.py	/^import numpy as np$/;"	i
+np	rl_mmc/tests/test_rl.py	/^import numpy as np$/;"	i
+np	rna_mmc/rna/ffElman.py	/^import numpy as np$/;"	i
+np	rna_mmc/rna/ffNet.py	/^import numpy as np$/;"	i
+np	rna_mmc/rna/ffNet_with_graph.py	/^import numpy as np$/;"	i
+np	rna_mmc/rna/ffRBoltzmann.py	/^import numpy as np$/;"	i
+np	rna_mmc/rna/libFun.py	/^import numpy as np$/;"	i
+np	rna_mmc/rna/test_digits.py	/^import numpy as np$/;"	i
+obstacles	BigFile_Terrain.py	/^    def obstacles(self): return self.__obs$/;"	m	class:Terrain
+obstacles	projet.py	/^    def obstacles(self):$/;"	m	class:Terrain
+os	load_tests.py	/^import os$/;"	i
+os	mmcTools.py	/^import os$/;"	i
+os	rna_mmc/rna/test_digits.py	/^    import os$/;"	i
+os	tests/mmcTools.py	/^import os$/;"	i
+os	tests/test_access.py	/^import os$/;"	i
+os	tests/test_conso.py	/^import os$/;"	i
+os	tests/test_conso01d.py	/^import os$/;"	i
+os	tests/test_distance.py	/^import os, random$/;"	i
+os	tests/test_firme.py	/^import os$/;"	i
+os	tests/test_firme01d.py	/^import os$/;"	i
+os	tests/test_obstacles.py	/^import os$/;"	i
+os	tests/test_terrain.py	/^import os, random$/;"	i
+os	tests/test_tp01c.py	/^import os$/;"	i
+os	tests/test_tp01d.py	/^import os$/;"	i
+os	tools/mmcTools.py	/^import os$/;"	i
+p2c	tests/test_obstacles.py	/^def p2c(v:int, w:int) -> tuple:$/;"	f
+param	load_tests.py	/^    param = input("quel est le fichier à traiter ? ")$/;"	v
+param	tests/test_access.py	/^    param = input("quel est le fichier à traiter ? ")$/;"	v
+param	tests/test_conso.py	/^    param = input("quel est le fichier à traiter ? ")$/;"	v
+param	tests/test_conso01d.py	/^    param = input("quel est le fichier à traiter ? ")$/;"	v
+param	tests/test_distance.py	/^    param = input("quel est le fichier à traiter ? ")$/;"	v
+param	tests/test_firme.py	/^    param = input("quel est le fichier à traiter ? ")$/;"	v
+param	tests/test_firme01d.py	/^    param = input("quel est le fichier à traiter ? ")$/;"	v
+param	tests/test_obstacles.py	/^    param = input("quel est le fichier à traiter ? ")$/;"	v
+param	tests/test_terrain.py	/^    param = input("quel est le fichier à traiter ? ")$/;"	v
+param	tests/test_tp01c.py	/^    param = input("quel est le fichier à traiter ? ")$/;"	v
+param	tests/test_tp01d.py	/^    param = input("quel est le fichier à traiter ? ")$/;"	v
+parse	tools/ezCLI.py	/^def parse(string, default='', vsep=' ', nsep='='):$/;"	f
+patch_agent_reset	tests/test_tp01d.py	/^    def patch_agent_reset(self, obj):$/;"	m	class:TestReset
+pause	tools/ezCLI.py	/^def pause(*args, sep=' ', end='\\n', ask='', prompt='', ok=' '):$/;"	f
+perdant	mmcTools.py	/^        def perdant(self): return False$/;"	m	class:.Fake
+perdant	mmcTools.py	/^        def perdant(self): return False$/;"	m	class:.Fake2
+perdant	tests/mmcTools.py	/^        def perdant(self): return False$/;"	m	class:.Fake
+perdant	tests/mmcTools.py	/^        def perdant(self): return False$/;"	m	class:.Fake2
+perdant	tools/mmcTools.py	/^        def perdant(self): return False$/;"	m	class:.Fake
+perdant	tools/mmcTools.py	/^        def perdant(self): return False$/;"	m	class:.Fake2
+plotCurve	rna_mmc/rna/ffNet_with_graph.py	/^def plotCurve(values, sl=slice(0,None), lab='error', title="default"):$/;"	f
+plotCurves	rna_mmc/rna/ffNet_with_graph.py	/^def plotCurves(values, sl=slice(0,None), lab1='learn', lab2='test', title="default"):$/;"	f
+plotFun	rna_mmc/rna/ffNet_with_graph.py	/^    def plotFun(self, values, tagIn, tagOut,$/;"	m	class:MLP
+plt	rna_mmc/rna/ffNet.py	/^    import matplotlib.pyplot as plt$/;"	i
+plt	rna_mmc/rna/ffNet_with_graph.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	rna_mmc/rna/test_digits.py	/^import matplotlib.pyplot as plt$/;"	i
+pm	projet.py	/^    def pm(self):$/;"	m	class:Consommateur
+pm	projet.py	/^    def pm(self):$/;"	m	class:Firme
+pop	tools/mmcContainer.py	/^    def pop(self) -> UnNoeud:$/;"	m	class:Queue
+pop	tools/mmcContainer.py	/^    def pop(self) -> UnNoeud:$/;"	m	class:Stack
+population	BigFile_Terrain.py	/^    population = property(get_population, set_population,$/;"	v	class:Terrain
+population	projet.py	/^    population = property(get_population, set_population,$/;"	v	class:Terrain
+pos2coord	BigFile_Terrain.py	/^    def pos2coord(self, p:int):$/;"	m	class:Terrain
+pos2coord	projet.py	/^    def pos2coord(self, p: int):$/;"	m	class:Terrain
+posAccess	BigFile_Terrain.py	/^    def posAccess(self, p:int, r:int) -> list:$/;"	m	class:Terrain
+posAccess	projet.py	/^    def posAccess(self, p: int, r: int) -> list:$/;"	m	class:Terrain
+posDistance	BigFile_Terrain.py	/^    def posDistance(self, p:int, q:int) -> int:$/;"	m	class:Terrain
+posDistance	projet.py	/^    def posDistance(self, p: int, q: int) -> int:$/;"	m	class:Terrain
+predict	rna_mmc/rna/ffElman.py	/^def predict(net, datas, tagIn='input', tagOut='target', verbose=True):$/;"	f
+predict	rna_mmc/rna/ffNet.py	/^def predict(net, datas, tagIn='input', tagOut='target', verbose=True):$/;"	f
+predict	rna_mmc/rna/ffNet_with_graph.py	/^    def predict(self, datas, tagIn='input', tagOut='target', verbose=True):$/;"	m	class:MLP
+predict	rna_mmc/rna/ffRBoltzmann.py	/^    def predict(self, base, verbose=False):$/;"	m	class:RBoltzmann
+preference	projet.py	/^    def preference(self):$/;"	m	class:Consommateur
+prime	rna_mmc/rna/libFun.py	/^    def prime(self, val): pass$/;"	m	class:Fun
+prime	rna_mmc/rna/libFun.py	/^    def prime(self, val):$/;"	m	class:Linear
+prime	rna_mmc/rna/libFun.py	/^    def prime(self, val):$/;"	m	class:Logit
+prime	rna_mmc/rna/libFun.py	/^    def prime(self, val):$/;"	m	class:Seuil
+prime	rna_mmc/rna/libFun.py	/^    def prime(self, val):$/;"	m	class:Tanh
+prixMaxi	projet.py	/^    def prixMaxi(self):$/;"	m	class:Firme
+prixMaximum	BigFile_Terrain.py	/^    prixMaximum = property(get_prixMaximum, set_prixMaximum)$/;"	v	class:Terrain
+prixMaximum	projet.py	/^    prixMaximum = property(get_prixMaximum, set_prixMaximum)$/;"	v	class:Terrain
+prixMini	projet.py	/^    def prixMini(self):$/;"	m	class:Firme
+prixMinimum	BigFile_Terrain.py	/^    prixMinimum = property(get_prixMinimum, set_prixMinimum)$/;"	v	class:Terrain
+prixMinimum	projet.py	/^    prixMinimum = property(get_prixMinimum, set_prixMinimum)$/;"	v	class:Terrain
+propriete	mmcTools.py	/^    def propriete(self):$/;"	m	class:Controle
+propriete	tests/mmcTools.py	/^    def propriete(self):$/;"	m	class:Controle
+propriete	tools/mmcTools.py	/^    def propriete(self):$/;"	m	class:Controle
+push	tools/mmcContainer.py	/^    def push(self, node:UnNoeud) -> None:$/;"	m	class:Queue
+push	tools/mmcContainer.py	/^    def push(self, node:UnNoeud) -> None:$/;"	m	class:Stack
+random	BigFile_Terrain.py	/^import random$/;"	i
+random	projet.py	/^import random$/;"	i
+random	tests/test_conso01d.py	/^import random$/;"	i
+random	tests/test_distance.py	/^import os, random$/;"	i
+random	tests/test_terrain.py	/^import os, random$/;"	i
+random	tools/simulateur.py	/^import random$/;"	i
+random_deplacement	projet.py	/^    def random_deplacement(pm):$/;"	m	class:RandCorp
+read_blk	tools/ezCLI.py	/^def read_blk(filename, sep='\\n', filters={}):$/;"	f
+read_csv	tools/ezCLI.py	/^def read_csv(filename, raw=False, colsep=',', rowsep='\\n', sep='\\n\\n'):$/;"	f
+read_ini	tools/ezCLI.py	/^def read_ini(filename, raw=False, sep='\\n'):$/;"	f
+read_txt	tools/ezCLI.py	/^def read_txt(filename, start=None, stop=0, step=1, sep='\\n'):$/;"	f
+realpath	tools/ezCLI.py	/^    from os.path import realpath$/;"	i
+remove	tools/mmcContainer.py	/^    def remove(self, x, occ=1):$/;"	m	class:MultiSet
+reset	BigFile_Terrain.py	/^    def reset(self) -> None:$/;"	m	class:Terrain
+reset	projet.py	/^    def reset(self) -> None:$/;"	m	class:Terrain
+reset	projet.py	/^    def reset(self):$/;"	m	class:Firme
+reset	rl_mmc/rl/greedy.py	/^    def reset(self):$/;"	m	class:EGreedy
+reset	rl_mmc/rl/softmax.py	/^    def reset(self):$/;"	m	class:Softmax
+reset	rna_mmc/rna/ffNet.py	/^    def reset(self):$/;"	m	class:FeedForward
+reset	rna_mmc/rna/ffRBoltzmann.py	/^    def reset(self):$/;"	m	class:RBoltzmann
+reset	tests/test_tp01c.py	/^    def reset(self): self.__m['reset_'] += 1$/;"	m	class:Agent
+reset	tests/test_tp01d.py	/^    def reset(self): pass$/;"	m	class:Customer
+resetAgents	BigFile_Terrain.py	/^    def resetAgents(self, freset:bool=True, creset:bool=True) -> None:$/;"	m	class:Terrain
+resetAgents	projet.py	/^    def resetAgents(self, freset: bool = True, creset: bool = True) -> None:$/;"	m	class:Terrain
+resetContext	rna_mmc/rna/ffElman.py	/^    def resetContext(self):$/;"	m	class:Elman
+resetTerrain	BigFile_Terrain.py	/^    def resetTerrain(self) -> None:$/;"	m	class:Terrain
+resetTerrain	projet.py	/^    def resetTerrain(self) -> None:$/;"	m	class:Terrain
+rna	rna_mmc/rna/ffElman.py	/^import rna.libFun as libFun # les fonctions de transfert$/;"	i
+rna	rna_mmc/rna/ffNet.py	/^import rna.libFun as libFun # les fonctions de transfert$/;"	i
+rna	rna_mmc/rna/ffNet_with_graph.py	/^import rna.ffNet as ffNet$/;"	i
+rna	rna_mmc/rna/ffNet_with_graph.py	/^import rna.libFun as libFun$/;"	i
+run	BigFile_Terrain.py	/^    def run(self, nb:int, flag:bool) -> Historique:$/;"	m	class:Terrain
+run	projet.py	/^    def run(self, nb: int, flag: bool) -> Historique:$/;"	m	class:Terrain
+save	tools/mmcContainer.py	/^    def save(cls, data:dict, fichier:str) -> bool:$/;"	f	function:serialize
+save	tools/mmcContainer.py	/^    def save(self):$/;"	m	class:Historique
+select	rl_mmc/rl/base.py	/^    def select(state:np.ndarray) -> int:$/;"	m	class:RL
+serialize	tools/mmcContainer.py	/^def serialize(Class):$/;"	f
+setFirmes	BigFile_Terrain.py	/^    def setFirmes(self, args) -> None:$/;"	m	class:Terrain
+setFirmes	projet.py	/^    def setFirmes(self, args) -> None:$/;"	m	class:Terrain
+setMe	mmcTools.py	/^        def setMe(self, val):$/;"	f	function:checkMe.make_property
+setMe	tests/mmcTools.py	/^        def setMe(self, val):$/;"	f	function:checkMe.make_property
+setMe	tools/mmcTools.py	/^        def setMe(self, val):$/;"	f	function:checkMe.make_property
+setTerrain	BigFile_Terrain.py	/^    def setTerrain(self, obstacles) -> bool:$/;"	m	class:Terrain
+setTerrain	projet.py	/^    def setTerrain(self, obstacles) -> bool:$/;"	m	class:Terrain
+setUp	tests/test_access.py	/^    def setUp(self):$/;"	m	class:TestMooreBound
+setUp	tests/test_access.py	/^    def setUp(self):$/;"	m	class:TestMooreTore
+setUp	tests/test_access.py	/^    def setUp(self):$/;"	m	class:TestVNeumannBound
+setUp	tests/test_access.py	/^    def setUp(self):$/;"	m	class:TestVNeumannTore
+setUp	tests/test_conso.py	/^    def setUp(self):$/;"	m	class:TestAdjust
+setUp	tests/test_conso.py	/^    def setUp(self):$/;"	m	class:TestConso
+setUp	tests/test_conso.py	/^    def setUp(self):$/;"	m	class:TestConsommateur
+setUp	tests/test_conso.py	/^    def setUp(self):$/;"	m	class:TestPlus
+setUp	tests/test_conso.py	/^    def setUp(self):$/;"	m	class:TestRand
+setUp	tests/test_conso01d.py	/^    def setUp(self):$/;"	m	class:TestConso
+setUp	tests/test_conso01d.py	/^    def setUp(self):$/;"	m	class:TestPref
+setUp	tests/test_distance.py	/^    def setUp(self):$/;"	m	class:TestDistance
+setUp	tests/test_distance.py	/^    def setUp(self):$/;"	m	class:TestPosAndCoord
+setUp	tests/test_firme.py	/^    def setUp(self):$/;"	m	class:TestCorp
+setUp	tests/test_firme.py	/^    def setUp(self):$/;"	m	class:TestFirme
+setUp	tests/test_firme.py	/^    def setUp(self):$/;"	m	class:TestLow
+setUp	tests/test_firme.py	/^    def setUp(self):$/;"	m	class:TestRand
+setUp	tests/test_firme01d.py	/^    def setUp(self):$/;"	m	class:TestDown
+setUp	tests/test_firme01d.py	/^    def setUp(self):$/;"	m	class:TestLeft
+setUp	tests/test_firme01d.py	/^    def setUp(self):$/;"	m	class:TestRight
+setUp	tests/test_firme01d.py	/^    def setUp(self):$/;"	m	class:TestStable
+setUp	tests/test_firme01d.py	/^    def setUp(self):$/;"	m	class:TestUp
+setUp	tests/test_obstacles.py	/^    def setUp(self):$/;"	m	class:TestObstaclesBound
+setUp	tests/test_obstacles.py	/^    def setUp(self):$/;"	m	class:TestObstaclesTore
+setUp	tests/test_terrain.py	/^    def setUp(self):$/;"	m	class:TestLand
+setUp	tests/test_terrain.py	/^    def setUp(self):$/;"	m	class:TestSetter
+setUp	tests/test_terrain.py	/^    def setUp(self):$/;"	m	class:TestTerrain
+setUp	tests/test_tp01c.py	/^    def setUp(self):$/;"	m	class:TestAcid
+setUp	tests/test_tp01c.py	/^    def setUp(self):$/;"	m	class:TestConsommateurs
+setUp	tests/test_tp01c.py	/^    def setUp(self):$/;"	m	class:TestFirmes
+setUp	tests/test_tp01c.py	/^    def setUp(self):$/;"	m	class:TestMid
+setUp	tests/test_tp01c.py	/^    def setUp(self):$/;"	m	class:TestObstacles
+setUp	tests/test_tp01c.py	/^    def setUp(self):$/;"	m	class:TestReset
+setUp	tests/test_tp01d.py	/^    def setUp(self):$/;"	m	class:TestPopulation
+setUp	tests/test_tp01d.py	/^    def setUp(self):$/;"	m	class:TestReset
+setVectFuns	rna_mmc/rna/ffNet.py	/^    def setVectFuns(self, funLst):$/;"	m	class:FeedForward
+set_clientCost	BigFile_Terrain.py	/^    def set_clientCost(self, v): $/;"	m	class:Terrain
+set_clientCost	projet.py	/^    def set_clientCost(self, v):$/;"	m	class:Terrain
+set_clientPM	BigFile_Terrain.py	/^    def set_clientPM(self, v):$/;"	m	class:Terrain
+set_clientPM	projet.py	/^    def set_clientPM(self, v):$/;"	m	class:Terrain
+set_clientPreference	BigFile_Terrain.py	/^    def set_clientPreference(self, v):$/;"	m	class:Terrain
+set_clientPreference	projet.py	/^    def set_clientPreference(self, v):$/;"	m	class:Terrain
+set_clientUtility	BigFile_Terrain.py	/^    def set_clientUtility(self, v):$/;"	m	class:Terrain
+set_clientUtility	projet.py	/^    def set_clientUtility(self, v):$/;"	m	class:Terrain
+set_firmePM	BigFile_Terrain.py	/^    def set_firmePM(self, v):$/;"	m	class:Terrain
+set_firmePM	projet.py	/^    def set_firmePM(self, v):$/;"	m	class:Terrain
+set_population	BigFile_Terrain.py	/^    def set_population(self, v) -> None:$/;"	m	class:Terrain
+set_population	projet.py	/^    def set_population(self, v) -> None:$/;"	m	class:Terrain
+set_prixMaximum	BigFile_Terrain.py	/^    def set_prixMaximum(self, v):$/;"	m	class:Terrain
+set_prixMaximum	projet.py	/^    def set_prixMaximum(self, v):$/;"	m	class:Terrain
+set_prixMinimum	BigFile_Terrain.py	/^    def set_prixMinimum(self, v):$/;"	m	class:Terrain
+set_prixMinimum	projet.py	/^    def set_prixMinimum(self, v):$/;"	m	class:Terrain
+shape	rna_mmc/rna/ffNet.py	/^    def shape(self): return self.__shape[:]$/;"	m	class:FeedForward
+show	BigFile_Terrain.py	/^    def show(self):$/;"	m	class:Terrain
+show	projet.py	/^    def show(self):$/;"	m	class:Terrain
+show_me	rl_mmc/main_tp02.py	/^def show_me(t, _0, _1):$/;"	f
+signature	mmcTools.py	/^    def signature(fonction):$/;"	f
+signature	tests/mmcTools.py	/^    def signature(fonction):$/;"	f
+signature	tools/mmcContainer.py	/^from tools.mmcTools import signature$/;"	i
+signature	tools/mmcTools.py	/^    def signature(fonction):$/;"	f
+simulateur	tests/test_conso.py	/^def simulateur(agent, rewards):$/;"	f
+simulateur	tests/test_conso01d.py	/^def simulateur(agent, rewards):$/;"	f
+simulateur	tests/test_firme.py	/^def simulateur(agent, envt, rewards):$/;"	f
+simulateur	tests/test_firme01d.py	/^def simulateur(agent, envt, rewards):$/;"	f
+simulation	BigFile_Terrain.py	/^    def simulation(self, nbTour:int=None, ordre:bool=None,$/;"	m	class:Terrain
+simulation	projet.py	/^    def simulation(self, nbTour: int = None, ordre: bool = None,$/;"	m	class:Terrain
+singleError	rna_mmc/rna/ffNet_with_graph.py	/^    def singleError(self, data, tagIn='input', tagOut='target'):$/;"	m	class:MLP
+size	rl_mmc/rl/greedy.py	/^    def size(self) -> int: return self.__sz$/;"	m	class:EGreedy
+size	rl_mmc/rl/softmax.py	/^    def size(self) -> int: return self.__sz$/;"	m	class:Softmax
+small	rna_mmc/rna/ffNet.py	/^    small = 1e-1$/;"	v	class:FeedForward
+small	rna_mmc/rna/ffRBoltzmann.py	/^    small = 1e-1$/;"	v	class:RBoltzmann
+softmax	rl_mmc/rl/base.py	/^    def softmax(state:np.ndarray, temp:Number) -> int:$/;"	m	class:RL
+soluce	tests/test_obstacles.py	/^    soluce = {}$/;"	v	class:TestObstaclesBound
+soluce	tests/test_obstacles.py	/^    soluce = {}$/;"	v	class:TestObstaclesTore
+split	tools/ezCLI.py	/^  def split(val, width, offset):$/;"	f	function:inspect
+splitcode	tools/ezCLI.py	/^  def splitcode(code):$/;"	f	function:testcode
+splitstring	tools/ezCLI.py	/^  def splitstring(string, vsep, nsep):$/;"	f	function:parse
+spy	tools/mmcContainer.py	/^def spy(fn):$/;"	f
+spy_reset	tools/mmcContainer.py	/^def spy_reset(fn):$/;"	f
+spyed_fn	tools/mmcContainer.py	/^    def spyed_fn(*args, **kwargs):$/;"	f	function:spy
+stack	tools/ezCLI.py	/^  from inspect import stack # use 'stack' to get namespace from caller function$/;"	i
+state	rl_mmc/rl/greedy.py	/^    def state(self) -> np.array: return np.round(self.__state, 4)$/;"	m	class:EGreedy
+state	rl_mmc/rl/softmax.py	/^    def state(self) -> np.array: return np.round(self.__state, 4)$/;"	m	class:Softmax
+state	rna_mmc/rna/ffRBoltzmann.py	/^    def state(data):$/;"	m	class:RBoltzmann
+step	BigFile_Terrain.py	/^    def step(self, flag:bool) -> None:$/;"	m	class:Terrain
+step	projet.py	/^    def step(self, flag: bool) -> None:$/;"	m	class:Terrain
+store	tools/mmcContainer.py	/^    def store(self, data):$/;"	m	class:Historique
+subtest_anycoord	tests/test_obstacles.py	/^    def subtest_anycoord(self, key, vois):$/;"	m	class:TestObstaclesBound
+subtest_anyposition	tests/test_obstacles.py	/^    def subtest_anyposition(self, key, vois):$/;"	m	class:TestObstaclesBound
+subtest_args	tests/test_terrain.py	/^    def subtest_args(self, idx, val):$/;"	m	class:TestLand
+subtest_att_default	tests/test_terrain.py	/^    def subtest_att_default(self, idx):$/;"	m	class:TestLand
+subtest_att_default	tests/test_terrain.py	/^    def subtest_att_default(self, idx):$/;"	m	class:TestTerrain
+subtest_casting	tests/test_tp01c.py	/^    def subtest_casting(self, fun):$/;"	m	class:TestFirmes
+subtest_coord	tests/test_distance.py	/^    def subtest_coord(self, voisin:bool, borne:bool):$/;"	m	class:TestDistance
+subtest_default	tests/test_conso01d.py	/^    def subtest_default(self, obj, sz=4):$/;"	m	class:TestPref
+subtest_default	tests/test_tp01d.py	/^    def subtest_default(self, obj):$/;"	m	class:TestPopulation
+subtest_distance_coord	tests/test_obstacles.py	/^    def subtest_distance_coord(self, key, vois):$/;"	m	class:TestObstaclesBound
+subtest_distance_pos	tests/test_obstacles.py	/^    def subtest_distance_pos(self, key, vois):$/;"	m	class:TestObstaclesBound
+subtest_equalCoord	tests/test_distance.py	/^    def subtest_equalCoord(self, voisin:bool, borne:bool):$/;"	m	class:TestDistance
+subtest_equalDistance	tests/test_distance.py	/^    def subtest_equalDistance(self, voisin:bool, borne:bool):$/;"	m	class:TestDistance
+subtest_equalPos	tests/test_distance.py	/^    def subtest_equalPos(self, voisin:bool, borne:bool):$/;"	m	class:TestDistance
+subtest_equal_coding	tests/test_obstacles.py	/^    def subtest_equal_coding(self, key, vois):$/;"	m	class:TestObstaclesBound
+subtest_equal_pos	tests/test_obstacles.py	/^    def subtest_equal_pos(self, key, vois):$/;"	m	class:TestObstaclesBound
+subtest_firmes	tests/test_terrain.py	/^    def subtest_firmes(self, l, c, f):$/;"	m	class:TestLand
+subtest_getDecision	tests/test_conso.py	/^    def subtest_getDecision(self, klass, params):$/;"	m	class:TestConso
+subtest_getDecision	tests/test_firme.py	/^    def subtest_getDecision(self, klass, params):$/;"	m	class:TestCorp
+subtest_ignore	tests/test_terrain.py	/^    def subtest_ignore(self, obj, att, val):$/;"	m	class:TestSetter
+subtest_multicoord	tests/test_distance.py	/^    def subtest_multicoord(self, voisin:bool, borne:bool):$/;"	m	class:TestDistance
+subtest_multipos	tests/test_distance.py	/^    def subtest_multipos(self, voisin:bool, borne:bool):$/;"	m	class:TestDistance
+subtest_noAgent	tests/test_tp01d.py	/^    def subtest_noAgent(self, obj):$/;"	m	class:TestReset
+subtest_noContext	tests/test_firme.py	/^    def subtest_noContext(self,_args):$/;"	m	class:TestLow
+subtest_noContext	tests/test_firme01d.py	/^    def subtest_noContext(self,_args):$/;"	m	class:TestStable
+subtest_noContext	tests/test_tp01c.py	/^    def subtest_noContext(self, args):$/;"	m	class:TestMid
+subtest_obstacles	tests/test_terrain.py	/^    def subtest_obstacles(self, l, c, o):$/;"	m	class:TestLand
+subtest_pos	tests/test_distance.py	/^    def subtest_pos(self, voisin:bool, borne:bool):$/;"	m	class:TestDistance
+subtest_posFirme	tests/test_tp01c.py	/^    def subtest_posFirme(self, flag:bool):$/;"	m	class:TestFirmes
+subtest_pref_size	tests/test_conso01d.py	/^    def subtest_pref_size(self, obj, sz):$/;"	m	class:TestPref
+subtest_readonly	mmcTools.py	/^def subtest_readonly(obj, lattr):$/;"	f
+subtest_readonly	tests/mmcTools.py	/^def subtest_readonly(obj, lattr):$/;"	f
+subtest_readonly	tools/mmcTools.py	/^def subtest_readonly(obj, lattr):$/;"	f
+subtest_setter	tests/test_terrain.py	/^    def subtest_setter(self, obj, att, mini, maxi, values):$/;"	m	class:TestSetter
+subtest_someAgents	tests/test_tp01d.py	/^    def subtest_someAgents(self, obj, firm, consumer):$/;"	m	class:TestReset
+subtest_triangularCoord	tests/test_distance.py	/^    def subtest_triangularCoord(self, voisin:bool, borne:bool):$/;"	m	class:TestDistance
+subtest_triangularPos	tests/test_distance.py	/^    def subtest_triangularPos(self, voisin:bool, borne:bool):$/;"	m	class:TestDistance
+subtest_triangular_pos	tests/test_obstacles.py	/^    def subtest_triangular_pos(self, key, vois):$/;"	m	class:TestObstaclesBound
+suite	tests/test_access.py	/^def suite(fname):$/;"	f
+suite	tests/test_conso.py	/^def suite(fname):$/;"	f
+suite	tests/test_conso01d.py	/^def suite(fname):$/;"	f
+suite	tests/test_distance.py	/^def suite(fname):$/;"	f
+suite	tests/test_firme.py	/^def suite(fname):$/;"	f
+suite	tests/test_firme01d.py	/^def suite(fname):$/;"	f
+suite	tests/test_obstacles.py	/^def suite(fname):$/;"	f
+suite	tests/test_terrain.py	/^def suite(fname):$/;"	f
+suite	tests/test_tp01c.py	/^def suite(fname):$/;"	f
+suite	tests/test_tp01d.py	/^def suite(fname):$/;"	f
+suite_me	load_tests.py	/^def suite_me(fname):$/;"	f
+sum	load_tests.py	/^    def sum(self): return self.yes + self.no$/;"	m	class:Data
+svt	tools/mmcContainer.py	/^    def svt(self): return self.__svt$/;"	m	class:UnNoeud
+svt	tools/mmcContainer.py	/^    def svt(self, node:any) -> None:$/;"	m	class:UnNoeud
+sys	load_tests.py	/^import sys$/;"	i
+sys	mmcTools.py	/^import sys$/;"	i
+sys	tests/mmcTools.py	/^import sys$/;"	i
+sys	tools/mmcTools.py	/^import sys$/;"	i
+system	tools/ezCLI.py	/^  from time import time # use 'time' to get access to system clock$/;"	i
+tau	rl_mmc/rl/softmax.py	/^    def tau(self): return self.__tau$/;"	m	class:Softmax
+tempfile	mmcTools.py	/^import logging, tempfile$/;"	i
+tempfile	tests/mmcTools.py	/^import logging, tempfile$/;"	i
+tempfile	tools/mmcTools.py	/^import logging, tempfile$/;"	i
+testDefault	tests/test_tp01d.py	/^    def testDefault(self):$/;"	m	class:TestPopulation
+testEmpty	tests/test_tp01d.py	/^    def testEmpty(self):$/;"	m	class:TestPopulation
+testExceedingSetter	tests/test_tp01d.py	/^    def testExceedingSetter(self):$/;"	m	class:TestPopulation
+testModify	tests/test_tp01d.py	/^    def testModify(self):$/;"	m	class:TestPopulation
+testPartialAndIncorrectSetter	tests/test_tp01d.py	/^    def testPartialAndIncorrectSetter(self):$/;"	m	class:TestPopulation
+testPartialSetter	tests/test_tp01d.py	/^    def testPartialSetter(self):$/;"	m	class:TestPopulation
+test_2D_firmes	tests/test_terrain.py	/^    def test_2D_firmes(self):$/;"	m	class:TestLand
+test_2D_obstacles	tests/test_terrain.py	/^    def test_2D_obstacles(self):$/;"	m	class:TestLand
+test_Access	tests/test_obstacles.py	/^    def test_Access(self):$/;"	m	class:TestObstaclesBound
+test_Distance	tests/test_obstacles.py	/^    def test_Distance(self):$/;"	m	class:TestObstaclesBound
+test_access	load_tests.py	/^from tests import test_access$/;"	i
+test_badBool	tests/test_terrain.py	/^    def test_badBool(self):$/;"	m	class:TestLand
+test_badMarket	tests/test_firme01d.py	/^    def test_badMarket(self):$/;"	m	class:TestStable
+test_badMood	tests/test_firme.py	/^    def test_badMood(self):$/;"	m	class:TestLow
+test_badSetting_estFixe	tests/test_conso01d.py	/^    def test_badSetting_estFixe(self):$/;"	m	class:TestPref
+test_badValues	tests/test_terrain.py	/^    def test_badValues(self):$/;"	m	class:TestSetter
+test_calmMarket	tests/test_firme01d.py	/^    def test_calmMarket(self):$/;"	m	class:TestStable
+test_check	tests/test_conso.py	/^    def test_check(self):$/;"	m	class:TestConsommateur
+test_check	tests/test_conso01d.py	/^    def test_check(self):$/;"	m	class:TestConso
+test_check	tests/test_firme.py	/^    def test_check(self):$/;"	m	class:TestFirme
+test_check	tests/test_terrain.py	/^    def test_check(self):$/;"	m	class:TestTerrain
+test_clientCostType	tests/test_terrain.py	/^    def test_clientCostType(self):$/;"	m	class:TestLand
+test_clientCostType	tests/test_terrain.py	/^    def test_clientCostType(self):$/;"	m	class:TestTerrain
+test_clientCostValue	tests/test_terrain.py	/^    def test_clientCostValue(self):$/;"	m	class:TestLand
+test_clientCostValue	tests/test_terrain.py	/^    def test_clientCostValue(self):$/;"	m	class:TestTerrain
+test_clientPM	tests/test_terrain.py	/^    def test_clientPM(self):$/;"	m	class:TestTerrain
+test_clientPreference	tests/test_terrain.py	/^    def test_clientPreference(self):$/;"	m	class:TestTerrain
+test_clientUtility	tests/test_terrain.py	/^    def test_clientUtility(self):$/;"	m	class:TestTerrain
+test_colonnes	tests/test_terrain.py	/^    def test_colonnes(self):$/;"	m	class:TestTerrain
+test_conso	load_tests.py	/^from tests import test_conso$/;"	i
+test_conso01d	load_tests.py	/^from tests import test_conso01d$/;"	i
+test_coord	tests/test_distance.py	/^    def test_coord(self):$/;"	m	class:TestDistance
+test_coordAccess	tests/test_terrain.py	/^    def test_coordAccess(self):$/;"	m	class:TestTerrain
+test_cout	tests/test_conso.py	/^    def test_cout(self):$/;"	m	class:TestConsommateur
+test_default_coord	tests/test_distance.py	/^    def test_default_coord(self):$/;"	m	class:TestPosAndCoord
+test_default_coord_Un	tests/test_access.py	/^    def test_default_coord_Un(self):$/;"	m	class:TestMooreBound
+test_default_coord_Un	tests/test_access.py	/^    def test_default_coord_Un(self):$/;"	m	class:TestMooreTore
+test_default_coord_Un	tests/test_access.py	/^    def test_default_coord_Un(self):$/;"	m	class:TestVNeumannBound
+test_default_coord_Un	tests/test_access.py	/^    def test_default_coord_Un(self):$/;"	m	class:TestVNeumannTore
+test_default_coord_Zero	tests/test_access.py	/^    def test_default_coord_Zero(self):$/;"	m	class:TestMooreBound
+test_default_coord_Zero	tests/test_access.py	/^    def test_default_coord_Zero(self):$/;"	m	class:TestMooreTore
+test_default_coord_Zero	tests/test_access.py	/^    def test_default_coord_Zero(self):$/;"	m	class:TestVNeumannBound
+test_default_coord_Zero	tests/test_access.py	/^    def test_default_coord_Zero(self):$/;"	m	class:TestVNeumannTore
+test_default_pos	tests/test_distance.py	/^    def test_default_pos(self):$/;"	m	class:TestPosAndCoord
+test_default_pos_Un	tests/test_access.py	/^    def test_default_pos_Un(self):$/;"	m	class:TestMooreBound
+test_default_pos_Un	tests/test_access.py	/^    def test_default_pos_Un(self):$/;"	m	class:TestMooreTore
+test_default_pos_Un	tests/test_access.py	/^    def test_default_pos_Un(self):$/;"	m	class:TestVNeumannBound
+test_default_pos_Un	tests/test_access.py	/^    def test_default_pos_Un(self):$/;"	m	class:TestVNeumannTore
+test_default_pos_Zero	tests/test_access.py	/^    def test_default_pos_Zero(self):$/;"	m	class:TestMooreBound
+test_default_pos_Zero	tests/test_access.py	/^    def test_default_pos_Zero(self):$/;"	m	class:TestMooreTore
+test_default_pos_Zero	tests/test_access.py	/^    def test_default_pos_Zero(self):$/;"	m	class:TestVNeumannBound
+test_default_pos_Zero	tests/test_access.py	/^    def test_default_pos_Zero(self):$/;"	m	class:TestVNeumannTore
+test_distance	load_tests.py	/^from tests import test_distance$/;"	i
+test_dmin	tests/test_terrain.py	/^    def test_dmin(self):$/;"	m	class:TestTerrain
+test_equal	tests/test_distance.py	/^    def test_equal(self):$/;"	m	class:TestPosAndCoord
+test_equalCoord	tests/test_distance.py	/^    def test_equalCoord(self):$/;"	m	class:TestDistance
+test_equalDistance	tests/test_distance.py	/^    def test_equalDistance(self):$/;"	m	class:TestDistance
+test_equalPos	tests/test_distance.py	/^    def test_equalPos(self):$/;"	m	class:TestDistance
+test_estFixe	tests/test_conso.py	/^    def test_estFixe(self):$/;"	m	class:TestConsommateur
+test_estFixe	tests/test_conso01d.py	/^    def test_estFixe(self):$/;"	m	class:TestPref
+test_evenMidPrice	tests/test_firme.py	/^    def test_evenMidPrice(self):$/;"	m	class:TestLow
+test_evenMidPrice	tests/test_firme01d.py	/^    def test_evenMidPrice(self):$/;"	m	class:TestStable
+test_evenMidPrice	tests/test_tp01c.py	/^    def test_evenMidPrice(self):$/;"	m	class:TestMid
+test_fini	tests/test_terrain.py	/^    def test_fini(self):$/;"	m	class:TestTerrain
+test_firme	load_tests.py	/^from tests import test_firme$/;"	i
+test_firme01d	load_tests.py	/^from tests import test_firme01d$/;"	i
+test_firmePM	tests/test_terrain.py	/^    def test_firmePM(self):$/;"	m	class:TestTerrain
+test_firmes	tests/test_terrain.py	/^    def test_firmes(self):$/;"	m	class:TestTerrain
+test_generalCase_coord_center	tests/test_access.py	/^    def test_generalCase_coord_center(self):$/;"	m	class:TestMooreBound
+test_generalCase_coord_center	tests/test_access.py	/^    def test_generalCase_coord_center(self):$/;"	m	class:TestVNeumannBound
+test_generalCase_pos_center	tests/test_access.py	/^    def test_generalCase_pos_center(self):$/;"	m	class:TestMooreBound
+test_generalCase_pos_center	tests/test_access.py	/^    def test_generalCase_pos_center(self):$/;"	m	class:TestVNeumannBound
+test_generalCase_pos_corner	tests/test_access.py	/^    def test_generalCase_pos_corner(self):$/;"	m	class:TestMooreBound
+test_generalCase_pos_corner	tests/test_access.py	/^    def test_generalCase_pos_corner(self):$/;"	m	class:TestVNeumannBound
+test_generalCase_pos_mid	tests/test_access.py	/^    def test_generalCase_pos_mid(self):$/;"	m	class:TestMooreBound
+test_generalCase_pos_mid	tests/test_access.py	/^    def test_generalCase_pos_mid(self):$/;"	m	class:TestVNeumannBound
+test_generalCoord	tests/test_access.py	/^    def test_generalCoord(self):$/;"	m	class:TestMooreTore
+test_generalCoord	tests/test_access.py	/^    def test_generalCoord(self):$/;"	m	class:TestVNeumannTore
+test_generalPosition	tests/test_access.py	/^    def test_generalPosition(self):$/;"	m	class:TestMooreTore
+test_generalPosition	tests/test_access.py	/^    def test_generalPosition(self):$/;"	m	class:TestVNeumannTore
+test_getConsommateur	tests/test_tp01c.py	/^    def test_getConsommateur(self):$/;"	m	class:TestConsommateurs
+test_getConsommateur_default	tests/test_tp01c.py	/^    def test_getConsommateur_default(self):$/;"	m	class:TestObstacles
+test_getConsommateur_nosense	tests/test_tp01c.py	/^    def test_getConsommateur_nosense(self):$/;"	m	class:TestConsommateurs
+test_getDecision	tests/test_conso.py	/^    def test_getDecision(self):$/;"	m	class:TestConso
+test_getDecision	tests/test_conso.py	/^    def test_getDecision(self):$/;"	m	class:TestConsommateur
+test_getDecision	tests/test_conso.py	/^    def test_getDecision(self):$/;"	m	class:TestRand
+test_getDecision	tests/test_conso01d.py	/^    def test_getDecision(self):$/;"	m	class:TestPref
+test_getDecision	tests/test_firme.py	/^    def test_getDecision(self):$/;"	m	class:TestCorp
+test_getDecision	tests/test_firme.py	/^    def test_getDecision(self):$/;"	m	class:TestFirme
+test_getFirme_default	tests/test_tp01c.py	/^    def test_getFirme_default(self):$/;"	m	class:TestObstacles
+test_getObstacles	tests/test_tp01c.py	/^    def test_getObstacles(self):$/;"	m	class:TestObstacles
+test_getObstacles_default	tests/test_tp01c.py	/^    def test_getObstacles_default(self):$/;"	m	class:TestObstacles
+test_getObstacles_nochange	tests/test_tp01c.py	/^    def test_getObstacles_nochange(self):$/;"	m	class:TestObstacles
+test_getPosFirme	tests/test_tp01c.py	/^    def test_getPosFirme(self):$/;"	m	class:TestFirmes
+test_getPosFirme_default	tests/test_tp01c.py	/^    def test_getPosFirme_default(self):$/;"	m	class:TestObstacles
+test_goodMarket	tests/test_firme01d.py	/^    def test_goodMarket(self):$/;"	m	class:TestStable
+test_goodMood	tests/test_firme.py	/^    def test_goodMood(self):$/;"	m	class:TestLow
+test_independant_coding	tests/test_obstacles.py	/^    def test_independant_coding(self):$/;"	m	class:TestObstaclesBound
+test_ligne_firmes	tests/test_terrain.py	/^    def test_ligne_firmes(self):$/;"	m	class:TestLand
+test_ligne_obstacles	tests/test_terrain.py	/^    def test_ligne_obstacles(self):$/;"	m	class:TestLand
+test_lignes	tests/test_terrain.py	/^    def test_lignes(self):$/;"	m	class:TestTerrain
+test_multicoord	tests/test_distance.py	/^    def test_multicoord(self):$/;"	m	class:TestDistance
+test_multipos	tests/test_distance.py	/^    def test_multipos(self):$/;"	m	class:TestDistance
+test_noUpdate	tests/test_conso.py	/^    def test_noUpdate(self):$/;"	m	class:TestPlus
+test_obstacles	load_tests.py	/^from tests import test_obstacles$/;"	i
+test_obstacles	tests/test_terrain.py	/^    def test_obstacles(self):$/;"	m	class:TestTerrain
+test_oddMidPrice	tests/test_firme.py	/^    def test_oddMidPrice(self):$/;"	m	class:TestLow
+test_oddMidPrice	tests/test_firme01d.py	/^    def test_oddMidPrice(self):$/;"	m	class:TestStable
+test_oddMidPrice	tests/test_tp01c.py	/^    def test_oddMidPrice(self):$/;"	m	class:TestMid
+test_once_set_forever_set	tests/test_conso01d.py	/^    def test_once_set_forever_set(self):$/;"	m	class:TestPref
+test_p3r15	tests/test_conso.py	/^    def test_p3r15(self):$/;"	m	class:TestAdjust
+test_params	tests/test_conso.py	/^    def test_params(self):$/;"	m	class:TestConso
+test_params	tests/test_firme.py	/^    def test_params(self):$/;"	m	class:TestCorp
+test_params	tests/test_terrain.py	/^    def test_params(self):$/;"	m	class:TestLand
+test_penalty_only	tests/test_conso.py	/^    def test_penalty_only(self):$/;"	m	class:TestPlus
+test_pm	tests/test_conso.py	/^    def test_pm(self):$/;"	m	class:TestConsommateur
+test_pm	tests/test_firme.py	/^    def test_pm(self):$/;"	m	class:TestFirme
+test_posAccess	tests/test_terrain.py	/^    def test_posAccess(self):$/;"	m	class:TestTerrain
+test_position	tests/test_distance.py	/^    def test_position(self):$/;"	m	class:TestDistance
+test_pr4pr4p	tests/test_conso.py	/^    def test_pr4pr4p(self):$/;"	m	class:TestAdjust
+test_preference	tests/test_conso.py	/^    def test_preference(self):$/;"	m	class:TestConsommateur
+test_preference_init	tests/test_conso01d.py	/^    def test_preference_init(self):$/;"	m	class:TestPref
+test_prixMaxi	tests/test_firme.py	/^    def test_prixMaxi(self):$/;"	m	class:TestFirme
+test_prixMaximum	tests/test_terrain.py	/^    def test_prixMaximum(self):$/;"	m	class:TestTerrain
+test_prixMini	tests/test_firme.py	/^    def test_prixMini(self):$/;"	m	class:TestFirme
+test_prixMinimum	tests/test_terrain.py	/^    def test_prixMinimum(self):$/;"	m	class:TestTerrain
+test_prmany	tests/test_conso.py	/^    def test_prmany(self):$/;"	m	class:TestAdjust
+test_prrp	tests/test_conso.py	/^    def test_prrp(self):$/;"	m	class:TestPlus
+test_prrrrr	tests/test_conso.py	/^    def test_prrrrr(self):$/;"	m	class:TestAdjust
+test_randdecision	tests/test_firme.py	/^    def test_randdecision(self):$/;"	m	class:TestRand
+test_reset	tests/test_conso.py	/^    def test_reset(self):$/;"	m	class:TestPlus
+test_reset	tests/test_conso01d.py	/^    def test_reset(self):$/;"	m	class:TestPref
+test_reset	tests/test_firme.py	/^    def test_reset(self):$/;"	m	class:TestCorp
+test_reset	tests/test_firme01d.py	/^    def test_reset(self):$/;"	m	class:TestStable
+test_reset	tests/test_terrain.py	/^    def test_reset(self):$/;"	m	class:TestTerrain
+test_resetAgents_default	tests/test_tp01d.py	/^    def test_resetAgents_default(self):$/;"	m	class:TestReset
+test_resetTerrain_default	tests/test_tp01d.py	/^    def test_resetTerrain_default(self):$/;"	m	class:TestReset
+test_reset_calls_resetAgents	tests/test_tp01d.py	/^    def test_reset_calls_resetAgents(self):$/;"	m	class:TestReset
+test_reset_calls_resetTerrain	tests/test_tp01d.py	/^    def test_reset_calls_resetTerrain(self):$/;"	m	class:TestReset
+test_reset_default	tests/test_tp01d.py	/^    def test_reset_default(self):$/;"	m	class:TestReset
+test_reset_default_calls	tests/test_tp01d.py	/^    def test_reset_default_calls(self):$/;"	m	class:TestReset
+test_reset_getFirme	tests/test_tp01c.py	/^    def test_reset_getFirme(self):$/;"	m	class:TestReset
+test_reset_getObstacles	tests/test_tp01c.py	/^    def test_reset_getObstacles(self):$/;"	m	class:TestReset
+test_reset_non_default	tests/test_tp01d.py	/^    def test_reset_non_default(self):$/;"	m	class:TestReset
+test_reset_reset	tests/test_tp01d.py	/^    def test_reset_reset(self):$/;"	m	class:TestReset
+test_reset_resetAgents	tests/test_tp01d.py	/^    def test_reset_resetAgents(self):$/;"	m	class:TestReset
+test_reset_resetTerrain	tests/test_tp01d.py	/^    def test_reset_resetTerrain(self):$/;"	m	class:TestReset
+test_ro	tests/test_conso.py	/^    def test_ro(self):$/;"	m	class:TestConso
+test_ro	tests/test_firme.py	/^    def test_ro(self):$/;"	m	class:TestCorp
+test_ro	tests/test_terrain.py	/^    def test_ro(self):$/;"	m	class:TestLand
+test_setFirmes_exces	tests/test_tp01c.py	/^    def test_setFirmes_exces(self):$/;"	m	class:TestFirmes
+test_setFirmes_incomplete	tests/test_tp01c.py	/^    def test_setFirmes_incomplete(self):$/;"	m	class:TestFirmes
+test_setFirmes_iterable	tests/test_tp01c.py	/^    def test_setFirmes_iterable(self):$/;"	m	class:TestFirmes
+test_setFirmes_return	tests/test_tp01c.py	/^    def test_setFirmes_return(self):$/;"	m	class:TestFirmes
+test_setFirmes_wrongFirmes	tests/test_tp01c.py	/^    def test_setFirmes_wrongFirmes(self):$/;"	m	class:TestFirmes
+test_setFirmes_wrongPosition	tests/test_tp01c.py	/^    def test_setFirmes_wrongPosition(self):$/;"	m	class:TestFirmes
+test_setTerrain_default	tests/test_tp01c.py	/^    def test_setTerrain_default(self):$/;"	m	class:TestObstacles
+test_setTerrain_false	tests/test_tp01c.py	/^    def test_setTerrain_false(self):$/;"	m	class:TestObstacles
+test_setTerrain_true	tests/test_tp01c.py	/^    def test_setTerrain_true(self):$/;"	m	class:TestObstacles
+test_setter_cCost	tests/test_terrain.py	/^    def test_setter_cCost(self):$/;"	m	class:TestSetter
+test_setter_cCostUn	tests/test_terrain.py	/^    def test_setter_cCostUn(self):$/;"	m	class:TestSetter
+test_setter_cPM	tests/test_terrain.py	/^    def test_setter_cPM(self):$/;"	m	class:TestSetter
+test_setter_cPreference	tests/test_terrain.py	/^    def test_setter_cPreference(self):$/;"	m	class:TestSetter
+test_setter_cUtility	tests/test_terrain.py	/^    def test_setter_cUtility(self):$/;"	m	class:TestSetter
+test_setter_fPM	tests/test_terrain.py	/^    def test_setter_fPM(self):$/;"	m	class:TestSetter
+test_setter_fPrixDeux	tests/test_terrain.py	/^    def test_setter_fPrixDeux(self):$/;"	m	class:TestSetter
+test_setter_fPrixUn	tests/test_terrain.py	/^    def test_setter_fPrixUn(self):$/;"	m	class:TestSetter
+test_step	tests/test_terrain.py	/^    def test_step(self):$/;"	m	class:TestTerrain
+test_symetrical_dp	tests/test_obstacles.py	/^    def test_symetrical_dp(self):$/;"	m	class:TestObstaclesBound
+test_terrain	load_tests.py	/^from tests import test_terrain$/;"	i
+test_tp01c	load_tests.py	/^from tests import test_tp01c$/;"	i
+test_tp01d	load_tests.py	/^from tests import test_tp01d$/;"	i
+test_triangularCoord	tests/test_distance.py	/^    def test_triangularCoord(self):$/;"	m	class:TestDistance
+test_triangularPos	tests/test_distance.py	/^    def test_triangularPos(self):$/;"	m	class:TestDistance
+test_triangular_inequalities	tests/test_obstacles.py	/^    def test_triangular_inequalities(self):$/;"	m	class:TestObstaclesBound
+test_typage_colonnes	tests/test_terrain.py	/^    def test_typage_colonnes(self):$/;"	m	class:TestLand
+test_typage_dmin	tests/test_terrain.py	/^    def test_typage_dmin(self):$/;"	m	class:TestLand
+test_typage_firmes	tests/test_terrain.py	/^    def test_typage_firmes(self):$/;"	m	class:TestLand
+test_typage_lignes	tests/test_terrain.py	/^    def test_typage_lignes(self):$/;"	m	class:TestLand
+test_typage_obstacles	tests/test_terrain.py	/^    def test_typage_obstacles(self):$/;"	m	class:TestLand
+test_type	tests/test_conso.py	/^    def test_type(self):$/;"	m	class:TestPlus
+test_type	tests/test_conso.py	/^    def test_type(self):$/;"	m	class:TestRand
+test_type	tests/test_conso01d.py	/^    def test_type(self):$/;"	m	class:TestPref
+test_type	tests/test_firme.py	/^    def test_type(self):$/;"	m	class:TestLow
+test_type	tests/test_firme.py	/^    def test_type(self):$/;"	m	class:TestRand
+test_type	tests/test_firme01d.py	/^    def test_type(self):$/;"	m	class:TestStable
+test_type	tests/test_tp01c.py	/^    def test_type(self):$/;"	m	class:TestMid
+test_updateModel	tests/test_conso.py	/^    def test_updateModel(self):$/;"	m	class:TestConsommateur
+test_updateModel	tests/test_firme.py	/^    def test_updateModel(self):$/;"	m	class:TestFirme
+test_update_exaequo	tests/test_conso01d.py	/^    def test_update_exaequo(self):$/;"	m	class:TestPref
+test_update_fix_size_toohigh	tests/test_conso01d.py	/^    def test_update_fix_size_toohigh(self):$/;"	m	class:TestPref
+test_update_fix_size_toosmall	tests/test_conso01d.py	/^    def test_update_fix_size_toosmall(self):$/;"	m	class:TestPref
+test_update_winner	tests/test_conso01d.py	/^    def test_update_winner(self):$/;"	m	class:TestPref
+test_voisinage	tests/test_terrain.py	/^    def test_voisinage(self):$/;"	m	class:TestTerrain
+testcode	tools/ezCLI.py	/^def testcode(code, wrap=True, field=80):$/;"	f
+theta	rna_mmc/rna/libFun.py	/^    def theta(self): return self.__theta$/;"	m	class:Fun
+time	tools/ezCLI.py	/^  from time import time # use 'time' to get access to system clock$/;"	i
+timer	tools/ezCLI.py	/^def timer(fcall, show=True, n=1000):$/;"	f
+tirageAleatoire	rl_mmc/rl/greedy.py	/^    def tirageAleatoire(self): return self.__alea$/;"	m	class:EGreedy
+to	tools/ezCLI.py	/^  from inspect import stack # use 'stack' to get namespace from caller function$/;"	i
+to	tools/ezCLI.py	/^  from time import time # use 'time' to get access to system clock$/;"	i
+toDict	tools/mmcContainer.py	/^    def toDict(self):$/;"	m	class:MultiSet
+toList	tools/mmcContainer.py	/^    def toList(self):$/;"	m	class:MultiSet
+toSet	tools/mmcContainer.py	/^    def toSet(self):$/;"	m	class:MultiSet
+tp	load_tests.py	/^    tp = __import__(etudiant) # revient à faire import XXX as tp$/;"	v
+tp	tests/test_access.py	/^    tp = __import__(etudiant) # revient à faire import XXX as tp$/;"	v
+tp	tests/test_conso.py	/^    tp = __import__(etudiant) # revient à faire import XXX as tp$/;"	v
+tp	tests/test_conso01d.py	/^    tp = __import__(etudiant) # revient à faire import XXX as tp$/;"	v
+tp	tests/test_distance.py	/^    tp = __import__(etudiant) # revient à faire import XXX as tp$/;"	v
+tp	tests/test_firme.py	/^    tp = __import__(etudiant) # revient à faire import XXX as tp$/;"	v
+tp	tests/test_firme01d.py	/^    tp = __import__(etudiant) # revient à faire import XXX as tp$/;"	v
+tp	tests/test_obstacles.py	/^    tp = __import__(etudiant) # revient à faire import XXX as tp$/;"	v
+tp	tests/test_terrain.py	/^    tp = __import__(etudiant) # revient à faire import XXX as tp$/;"	v
+tp	tests/test_tp01c.py	/^    tp = __import__(etudiant) # revient à faire import XXX as tp$/;"	v
+tp	tests/test_tp01d.py	/^    tp = __import__(etudiant) # revient à faire import XXX as tp$/;"	v
+tracing	mmcTools.py	/^    def tracing(fonction):$/;"	f	function:coroutine
+tracing	tests/mmcTools.py	/^    def tracing(fonction):$/;"	f	function:coroutine
+tracing	tools/mmcTools.py	/^    def tracing(fonction):$/;"	f	function:coroutine
+transfert	rna_mmc/rna/ffElman.py	/^import rna.libFun as libFun # les fonctions de transfert$/;"	i
+transfert	rna_mmc/rna/ffNet.py	/^import rna.libFun as libFun # les fonctions de transfert$/;"	i
+trunc	tools/ezCLI.py	/^  def trunc(val, width):$/;"	f	function:inspect
+try_me	rl_mmc/main_tp02.py	/^def try_me(t:Terrain, choix:int=0, nbIter:int=20):$/;"	f
+typing	mmcTools.py	/^import typing$/;"	i
+typing	tests/mmcTools.py	/^import typing$/;"	i
+typing	tools/mmcTools.py	/^import typing$/;"	i
+u	mmcTools.py	/^    u = XX(42)$/;"	v
+u	tests/mmcTools.py	/^    u = XX(42)$/;"	v
+u	tools/mmcTools.py	/^    u = XX(42)$/;"	v
+unittest	load_tests.py	/^import unittest$/;"	i
+unittest	tests/test_access.py	/^import unittest$/;"	i
+unittest	tests/test_conso.py	/^import unittest$/;"	i
+unittest	tests/test_conso01d.py	/^import unittest$/;"	i
+unittest	tests/test_distance.py	/^import unittest$/;"	i
+unittest	tests/test_firme.py	/^import unittest$/;"	i
+unittest	tests/test_firme01d.py	/^import unittest$/;"	i
+unittest	tests/test_obstacles.py	/^import unittest$/;"	i
+unittest	tests/test_terrain.py	/^import unittest$/;"	i
+unittest	tests/test_tp01c.py	/^import unittest$/;"	i
+unittest	tests/test_tp01d.py	/^import unittest$/;"	i
+unittest	tests/test_tp01d.py	/^import unittest.mock as hum$/;"	i
+unknown	rna_mmc/rna/test_digits.py	/^    mat = np.zeros( (_nbC, _nbC+1), dtype=int) #+1  class unknown$/;"	c	function:confusionMatrix
+update	rl_mmc/rl/greedy.py	/^    def update(self, reward) -> None:$/;"	m	class:EGreedy
+update	rl_mmc/rl/softmax.py	/^    def update(self, reward) -> None:$/;"	m	class:Softmax
+update	tools/mmcContainer.py	/^    def update(self, key, data):$/;"	m	class:Historique
+updateModel	projet.py	/^    def updateModel(self):$/;"	m	class:Consommateur
+updateModel	projet.py	/^    def updateModel(self, real):$/;"	m	class:Firme
+updateModel	tests/test_tp01c.py	/^    def updateModel(self, *args, **kwargs):$/;"	m	class:Agent
+updateModel	tests/test_tp01d.py	/^    def updateModel(self, *args, **kwargs): pass$/;"	m	class:Customer
+use	tools/ezCLI.py	/^  from inspect import stack # use 'stack' to get namespace from caller function$/;"	i
+use	tools/ezCLI.py	/^  from time import time # use 'time' to get access to system clock$/;"	i
+userloop	tools/ezCLI.py	/^def userloop(process=None, prompt=None, hello=None, bye=None,$/;"	f
+utilite	projet.py	/^    def utilite(self):$/;"	m	class:Consommateur
+utility_conso_simulateur	tools/simulateur.py	/^def utility_conso_simulateur(nbIter: int = 50,$/;"	f
+valeur	tools/mmcContainer.py	/^    def valeur(self): return self.__val$/;"	m	class:UnNoeud
+valeur	tools/mmcContainer.py	/^    def valeur(self, val) -> None:$/;"	m	class:UnNoeud
+validation	tools/simulateur.py	/^    def validation(a: int, b: int, na: int, nb: int,$/;"	f	function:firm_simulateur
+voisinage	BigFile_Terrain.py	/^    def voisinage(self): return self.__vicinity$/;"	m	class:Terrain
+voisinage	projet.py	/^    def voisinage(self):$/;"	m	class:Terrain
+warnings	mmcTools.py	/^import warnings$/;"	i
+warnings	rna_mmc/rna/ffNet.py	/^import warnings$/;"	i
+warnings	tests/mmcTools.py	/^import warnings$/;"	i
+warnings	tests/test_firme.py	/^import warnings$/;"	i
+warnings	tests/test_firme01d.py	/^import warnings$/;"	i
+warnings	tests/test_terrain.py	/^import warnings$/;"	i
+warnings	tools/mmcTools.py	/^import warnings$/;"	i
+weights	rna_mmc/rna/ffNet.py	/^    def weights(self, idx):$/;"	m	class:FeedForward
+write_blk	tools/ezCLI.py	/^def write_blk(filename, blocks, start=None, stop=0, step=1, sep='\\n'):$/;"	f
+write_csv	tools/ezCLI.py	/^def write_csv(filename, matrix, start=None, stop=0, step=1,$/;"	f
+write_ini	tools/ezCLI.py	/^def write_ini(filename, items, start=None, stop=0, step=1, sep='\\n'):$/;"	f
+write_txt	tools/ezCLI.py	/^def write_txt(filename, string, start=None, stop=0, step=1, sep='\\n'):$/;"	f
+yop	tests/test_tp01d.py	/^    def yop(*args, **kwargs):$/;"	f	function:addCpt

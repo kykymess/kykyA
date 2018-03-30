@@ -819,6 +819,7 @@ class Firme(object):
         #    if type(lignes) is int :self.__lignes = lignes
 
         self.part_de_marche = None
+        self.prix_actuel = None
 
         # pm
         if type(pm) is int:
@@ -849,6 +850,10 @@ class Firme(object):
     @property
     def prixMaxi(self):
         return self.__prixMaxi
+
+    @property
+    def midPrice(self):
+        return (self.prixMini + self.prixMaxi) / 2
 
     def getDecision(self, *args, **kwargs):
         # on reçoit un triplet <coord, qté, prix> * nb_firmes
@@ -882,23 +887,25 @@ class RandCorp(Firme):
 
 
 class LowCorp(RandCorp):
-    "déplacement aléatoire d’au plus une case ; minimum des prix pratiqués si elle n’a pas"
-    "la majorité des parts de marché, augmentation du prix (d’un point) si elle a la majorité des parts."
-    "En cas d’absence d’informations, le prix unitaire sera (pmin+pmax)/2 "
+    """
+    Déplacement aléatoire d’au plus une case
+    Minimum des prix pratiqués si elle n’a pas la majorité des parts de marché.
+    Augmentation du prix (d’un point) si elle a la majorité des parts.
+    En cas d’absence d’informations, le prix unitaire sera (pmin + pmax) / 2
+    """
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.dernier_prix = (self.prixMini + self.prixMaxi) / 2
+        self.prix_actuel = k
 
     def getDecision(self, *args, **kwargs):
         # on reçoit un triplet <coord, qté, prix> par firme
-        if self.part_de_marche == None:
-            # pas d'info
-            self.dernier_prix = (self.prixMaxi + self.prixMini) / 2
+        if self.part_de_marche == None:  # quand on a pas d'info, prix médian
+            self.prix_actuel = self.midPrice
         elif self.part_de_marche > 0.5:
             # monopole
-            self.dernier_prix += 1
+            self.prix_actuel += 1
         else:
-            self.dernier_prix = self.prixMini
+            self.prix_actuel = self.prixMini
         return self.random_deplacement(random.randrange(2)), self.dernier_prix
 
 
